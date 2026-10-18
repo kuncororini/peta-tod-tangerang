@@ -112,7 +112,7 @@ svg.chart g.pt text.l{fill:#fff;font-size:11px;font-weight:800;text-anchor:middl
 .steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:700}
 .two{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 .warn{border-left:6px solid #d89b00;background:#fff9e8}
-footer{background:#0f2733;color:#d6e3ea;padding:28px 0;margin-top:26px;font-size:.93rem}
+footer{background:#0f2733;color:#d6e3ea;padding:28px 0;margin-top:26px;font-size:.93rem;text-align:center}
 footer a{color:#9fd3e6}
 .leaflet-container{font-family:inherit}
 noscript{display:block;padding:16px;background:#fff3cd}
@@ -124,7 +124,6 @@ noscript{display:block;padding:16px;background:#fff3cd}
 
 <header class="hero">
   <div class="wrap">
-    <p class="eyebrow">Penelitian untuk Technopex 2026 · Institut Teknologi Indonesia</p>
     <h1>Seberapa siap kawasan di sekitar stasiun KRL Tangerang Raya?</h1>
     <p class="lead">Peta ini mengelompokkan 15 stasiun KRL ke dalam empat tipe kawasan. Pengelompokannya melihat dua hal: seberapa ramai kegiatan di sekitar stasiun, dan seberapa mudah stasiun dicapai dengan berjalan kaki.</p>
     <a class="btn primary" href="#peta">Buka peta</a>
@@ -149,7 +148,7 @@ noscript{display:block;padding:16px;background:#fff3cd}
       <button type="button" class="linkbtn" id="semua">Tampilkan semua</button>
     </div>
     <div id="map"></div>
-    <p class="map-hint">Tips: klik titik stasiun untuk detail. Gunakan tombol + dan − untuk memperbesar peta. Peta dasar dan data © OpenStreetMap contributors.</p>
+    <p class="map-hint">Tips: klik titik stasiun untuk detail. Gunakan tombol + dan − untuk memperbesar peta.</p>
   </section>
   <aside class="panel" id="panel" aria-live="polite"></aside>
 </div>
@@ -200,9 +199,9 @@ noscript{display:block;padding:16px;background:#fff3cd}
 
 <footer>
   <div class="wrap">
-    <p><strong>Peta Tipologi Kawasan Stasiun KRL Tangerang Raya</strong> · dibuat untuk Seminar Nasional Technopex ke-9 2026, Institut Teknologi Indonesia.</p>
-    <p>Data: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (lisensi ODbL); area jalan kaki dari <a href="https://openrouteservice.org/">OpenRouteService</a>. Peta interaktif: <a href="https://leafletjs.com/">Leaflet</a>.</p>
-    <p>Dikembangkan oleh Lintang Kuncororini, Teknik Informatika, Institut Teknologi Indonesia.</p>
+    <p><strong>Peta Tipologi Kawasan Stasiun KRL Tangerang Raya</strong></p>
+    <p>Data: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL) · Area jalan kaki: <a href="https://openrouteservice.org">OpenRouteService</a> · Peta: <a href="https://leafletjs.com">Leaflet</a></p>
+    <p>Tipologi bersifat eksploratif (15 stasiun) dan kelengkapan data OpenStreetMap bervariasi.</p>
   </div>
 </footer>
 
