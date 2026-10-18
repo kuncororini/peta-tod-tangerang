@@ -1,0 +1,6749 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-11T05:38:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11543754",
+        "amenity": "school",
+        "name": "YPK Ora et Labora",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6748602,
+          -6.3061949
+        ]
+      },
+      "id": "relation/11543754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158820399",
+        "access:roof": "no",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Jalan Perkutut Raya",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:roof": "asbestos",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "100-250",
+        "name": "Pasar Modern Bintaro Jaya Sektor 2",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7521848,
+          -6.2780717
+        ]
+      },
+      "id": "way/158820399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218726671",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Majid Agung Al-Mujahidin",
+        "religion": "muslim",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6637536,
+          -6.3235636
+        ]
+      },
+      "id": "way/218726671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292998697",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6321745,
+          -6.1713829
+        ]
+      },
+      "id": "way/292998697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292998811",
+        "building": "yes",
+        "name": "Robinson Plaza Tangerang",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6295966,
+          -6.1744597
+        ]
+      },
+      "id": "way/292998811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292999917",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid Agung Al - Ittihad Tangerang",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6295622,
+          -6.1760658
+        ]
+      },
+      "id": "way/292999917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/294408004",
+        "addr:city": "Banten",
+        "addr:postcode": "15111",
+        "addr:street": "Jl. Daan Mogot No.14",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Gereja Katolik Hati Santa Perawan Maria Tak Bernoda",
+        "religion": "christian",
+        "wikimedia_commons": "File:Immaculate Heart of the Blessed Virgin Mary Catholic Church Tangerang, April 2024.jpg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6296338,
+          -6.1737908
+        ]
+      },
+      "id": "way/294408004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/297152825",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "brand:wikipedia": "en:Alfamart",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6653773,
+          -6.3198543
+        ]
+      },
+      "id": "way/297152825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/297152828",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "building": "yes",
+        "name": "Indomaret Point",
+        "shop": "convenience",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6652375,
+          -6.3200181
+        ]
+      },
+      "id": "way/297152828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/297152830",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Pasar Serpong",
+        "organic": "yes",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6639514,
+          -6.3213828
+        ]
+      },
+      "id": "way/297152830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/352935226",
+        "addr:city": "Tangerang Selatan",
+        "addr:housenumber": "3A",
+        "addr:postcode": "15225",
+        "addr:street": "Bintaro Utama",
+        "alt_name": "Bintaro Plaza",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Plaza Bintaro Jaya",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7417492,
+          -6.2726696
+        ]
+      },
+      "id": "way/352935226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355474629",
+        "building": "yes",
+        "name": "Bintaro Xchange Mall 1",
+        "shop": "mall",
+        "short_name": "BXc Mall 1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7280346,
+          -6.2856663
+        ]
+      },
+      "id": "way/355474629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373166944",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "check_date": "2024-07-22",
+        "name": "Masjid Ittihadul Ummah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7447073,
+          -6.2784298
+        ]
+      },
+      "id": "way/373166944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373166945",
+        "addr:city": "Tangerang Selatan",
+        "addr:district": "Ciputat Timur",
+        "addr:postcode": "15412",
+        "addr:province": "Banten",
+        "addr:subdistrict": "Rengas",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "check_date": "2024-07-22",
+        "name": "Masjid Al-Ikhlash",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7445689,
+          -6.2800672
+        ]
+      },
+      "id": "way/373166945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373345594",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "3",
+        "name": "Masjid Cikal Harapan",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68166,
+          -6.314458
+        ]
+      },
+      "id": "way/373345594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373345903",
+        "alt_name": "SMPN 11 Tangerang Selatan",
+        "amenity": "school",
+        "grades": "7-9",
+        "isced:level": "2",
+        "name": "SMP Negeri 11 Tangerang Selatan",
+        "operator:type": "government",
+        "school:type_idn": "smp",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6840976,
+          -6.3153744
+        ]
+      },
+      "id": "way/373345903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374139311",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Polsek Cisauk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6396741,
+          -6.3303323
+        ]
+      },
+      "id": "way/374139311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374139317",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Vihara Sobhita",
+        "religion": "buddhist",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6394368,
+          -6.3269009
+        ]
+      },
+      "id": "way/374139317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/381684000",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "name": "Pasar Royal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6638025,
+          -6.1753158
+        ]
+      },
+      "id": "way/381684000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/391854804",
+        "amenity": "school",
+        "building": "yes",
+        "name": "SMP Strada ST Maria Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6314813,
+          -6.171145
+        ]
+      },
+      "id": "way/391854804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408780199",
+        "amenity": "school",
+        "name": "SD - SMP Pembangunan Jaya",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.740003,
+          -6.2694647
+        ]
+      },
+      "id": "way/408780199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/414338416",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid Al-Falaah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7275034,
+          -6.296488
+        ]
+      },
+      "id": "way/414338416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/414339765",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid Jami At-Thoharoh",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7299201,
+          -6.2910409
+        ]
+      },
+      "id": "way/414339765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437773790",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7152294,
+          -6.2945932
+        ]
+      },
+      "id": "way/437773790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437773796",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7132291,
+          -6.2950902
+        ]
+      },
+      "id": "way/437773796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479397416",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Musolah Darurohman",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4883822,
+          -6.3328689
+        ]
+      },
+      "id": "way/479397416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480139029",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Jami Al Fattah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6640003,
+          -6.3165552
+        ]
+      },
+      "id": "way/480139029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480159200",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.664755,
+          -6.3216268
+        ]
+      },
+      "id": "way/480159200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/481756346",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "commercial",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6222434,
+          -6.327084
+        ]
+      },
+      "id": "way/481756346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/496551337",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Jami' Kalipasir",
+        "name:en": "Jami Kalipasir Mosque",
+        "note": "Construction of the mosque carried out by Muslims with the assistance of ethnic Chinese.",
+        "religion": "muslim",
+        "start_date": "1700",
+        "wikidata": "Q16862806",
+        "wikipedia": "en:Kali Pasir Mosque",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.628866,
+          -6.1792237
+        ]
+      },
+      "id": "way/496551337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/501381593",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Musholla Al-Ikhlas",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4164811,
+          -6.3414656
+        ]
+      },
+      "id": "way/501381593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/501764059",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Mujahidin",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4293148,
+          -6.3268423
+        ]
+      },
+      "id": "way/501764059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502004979",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.42748,
+          -6.3301507
+        ]
+      },
+      "id": "way/502004979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502004991",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4305825,
+          -6.3288822
+        ]
+      },
+      "id": "way/502004991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502005001",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4296056,
+          -6.3248963
+        ]
+      },
+      "id": "way/502005001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502638429",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Jami' Tajul Barokah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.412013,
+          -6.3360684
+        ]
+      },
+      "id": "way/502638429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502638485",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4086262,
+          -6.3318893
+        ]
+      },
+      "id": "way/502638485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502797523",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4131532,
+          -6.3410804
+        ]
+      },
+      "id": "way/502797523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502797589",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4129489,
+          -6.3386835
+        ]
+      },
+      "id": "way/502797589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502890970",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6399947,
+          -6.3266492
+        ]
+      },
+      "id": "way/502890970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502891188",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warteg Bahari Stasiun Cisauk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.640105,
+          -6.3258433
+        ]
+      },
+      "id": "way/502891188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502895914",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6346476,
+          -6.3268907
+        ]
+      },
+      "id": "way/502895914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/503921743",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Jami Ass Sa'adah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4851142,
+          -6.3378283
+        ]
+      },
+      "id": "way/503921743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507459691",
+        "branch": "Cilenggang",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6725148,
+          -6.3079482
+        ]
+      },
+      "id": "way/507459691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507459694",
+        "air_conditioning": "yes",
+        "branch": "Cilenggang",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6728287,
+          -6.3081974
+        ]
+      },
+      "id": "way/507459694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/507459751",
+        "branch": "Raya Cilenggang",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6702131,
+          -6.3096457
+        ]
+      },
+      "id": "way/507459751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511622084",
+        "access:roof": "no",
+        "addr:city": "DKI Jakarta",
+        "addr:full": "Jalan Bintaro Utama I",
+        "amenity": "place_of_worship",
+        "backup_generator": "no",
+        "building": "mosque",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "250-500",
+        "evacuation_center": "no",
+        "name": "Masjid Jami' Bintaro Jaya",
+        "religion": "muslim",
+        "short_name": "MJBJ",
+        "source": "HOT_InAWARESurvey_2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7510475,
+          -6.2719964
+        ]
+      },
+      "id": "way/511622084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516581159",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6224405,
+          -6.1765836
+        ]
+      },
+      "id": "way/516581159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519262447",
+        "access:roof": "yes",
+        "addr:city": "Tangerang Selatan",
+        "addr:district": "Ciputat Timur",
+        "addr:full": "Jalan Taman Bintaro",
+        "addr:postcode": "15412",
+        "addr:province": "Banten",
+        "addr:subdistrict": "Rengas",
+        "backup_generator": "yes",
+        "building": "supermarket",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "building:walls": "concrete",
+        "capacity:persons": "250-500",
+        "name": "Farmers Market/Farmers Family",
+        "shop": "supermarket",
+        "source": "HOT_InAWARESurvey_2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7504691,
+          -6.2723914
+        ]
+      },
+      "id": "way/519262447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530723887",
+        "addr:housenumber": "8",
+        "addr:place": "Blok NB",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "retail",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6786636,
+          -6.3225355
+        ]
+      },
+      "id": "way/530723887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534646782",
+        "amenity": "marketplace",
+        "name": "Pasar Anyar Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6355318,
+          -6.1756756
+        ]
+      },
+      "id": "way/534646782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/536402663",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Kopi Kenangan x Cerita Roti - Alfamidi Stasiun Pondok Ranji",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.74602,
+          -6.2769015
+        ]
+      },
+      "id": "way/536402663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537068443",
+        "access:roof": "no",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Jalan H. Toran",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "100-250",
+        "name": "Masjid Al Muaawanah",
+        "religion": "muslim",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7507875,
+          -6.2752077
+        ]
+      },
+      "id": "way/537068443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537072429",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Zakkii Mushtofa",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7419007,
+          -6.2755968
+        ]
+      },
+      "id": "way/537072429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537119864",
+        "access:roof": "no",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Komplek PU Pengairan",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "50-100",
+        "check_date": "2024-07-22",
+        "name": "Masjid Assalam",
+        "religion": "muslim",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7480412,
+          -6.2793392
+        ]
+      },
+      "id": "way/537119864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537125486",
+        "access:roof": "no",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Jalan Punai IV",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "50-100",
+        "check_date": "2024-07-22",
+        "name": "Masjid Al Hidayah",
+        "religion": "muslim",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7496522,
+          -6.2810418
+        ]
+      },
+      "id": "way/537125486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537136060",
+        "access:roof": "no",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Jalan WR Supratman Nomor 80",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "100-250",
+        "check_date": "2024-07-22",
+        "name": "Masjid Jami Ar Rahmah",
+        "religion": "muslim",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7466766,
+          -6.2818139
+        ]
+      },
+      "id": "way/537136060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/539516121",
+        "access:roof": "no",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Jalan Kenari I Sektor 2 Bintaro",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Kelurahan Rengas",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7511946,
+          -6.2782595
+        ]
+      },
+      "id": "way/539516121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543800415",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al-Ikhlas",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795825,
+          -6.3111041
+        ]
+      },
+      "id": "way/543800415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562002610",
+        "amenity": "university",
+        "name": "Kampus 3 BSD Universitas Katolik Indonesia Atma Jaya",
+        "operator": "Universitas Katolik Indonesia Atma Jaya",
+        "website": "https://www.atmajaya.ac.id/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6499047,
+          -6.3202148
+        ]
+      },
+      "id": "way/562002610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/583548542",
+        "alt_name": "Pasar Modern @ Intermoda BSD City",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Pasar Modern Intermoda",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6431813,
+          -6.3207883
+        ]
+      },
+      "id": "way/583548542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/584028329",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Musola al-Ikhlas",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6763842,
+          -6.3155076
+        ]
+      },
+      "id": "way/584028329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629388323",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "HKBP Taman Adiyasa",
+        "religion": "christian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4347154,
+          -6.3213728
+        ]
+      },
+      "id": "way/629388323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629536888",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Jami' Al-Fallah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4290469,
+          -6.3347136
+        ]
+      },
+      "id": "way/629536888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629537082",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.430313,
+          -6.3314099
+        ]
+      },
+      "id": "way/629537082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629537188",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4343655,
+          -6.3329137
+        ]
+      },
+      "id": "way/629537188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629574651",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mushola Baiturrabbi",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4406337,
+          -6.3246986
+        ]
+      },
+      "id": "way/629574651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629721705",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4384131,
+          -6.3294363
+        ]
+      },
+      "id": "way/629721705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/630371906",
+        "building": "yes",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6737537,
+          -6.3076581
+        ]
+      },
+      "id": "way/630371906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/630371910",
+        "building": "yes",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.673748,
+          -6.3082899
+        ]
+      },
+      "id": "way/630371910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/630371914",
+        "building": "yes",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6741897,
+          -6.3087471
+        ]
+      },
+      "id": "way/630371914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/631298599",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mushola Darul Ulum",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4928192,
+          -6.3399844
+        ]
+      },
+      "id": "way/631298599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/641742201",
+        "addr:city": "Kota Tangerang Selatan",
+        "addr:district": "Kec. Pondok Aren",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "Bintaro Jaya 3",
+        "addr:postcode": "15221",
+        "addr:province": "Banten",
+        "addr:street": "Jalan Camar XIII",
+        "addr:subdistrict": "Kel. Pondok Betung",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "GPIB Filadelfia Bintaro",
+        "religion": "christian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7447473,
+          -6.2691293
+        ]
+      },
+      "id": "way/641742201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/654856168",
+        "alt_name": "Mall Balekota",
+        "building": "commercial",
+        "building:levels": "3",
+        "name": "Mall Balekota Tangerang",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6429732,
+          -6.1797637
+        ]
+      },
+      "id": "way/654856168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669046705",
+        "amenity": "marketplace",
+        "name": "Gerendeng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6263387,
+          -6.1789885
+        ]
+      },
+      "id": "way/669046705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/684767698",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Pizza Hut",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7424098,
+          -6.2726405
+        ]
+      },
+      "id": "way/684767698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/684767702",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Bakmi GM",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7425616,
+          -6.2729475
+        ]
+      },
+      "id": "way/684767702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/684767704",
+        "addr:city": "Banten City",
+        "addr:housenumber": "3A",
+        "addr:postcode": "15225",
+        "addr:street": "Jl. Bintaro Utama",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "cuisine": "seafood",
+        "delivery": "yes",
+        "name": "D'COST",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7426468,
+          -6.2731331
+        ]
+      },
+      "id": "way/684767704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685171452",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid Jami Al Hidayah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6808999,
+          -6.3181693
+        ]
+      },
+      "id": "way/685171452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685171454",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Puskesmas Rawabuntu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6810925,
+          -6.3180641
+        ]
+      },
+      "id": "way/685171454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685337238",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Klinik Amira",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795894,
+          -6.3091244
+        ]
+      },
+      "id": "way/685337238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685337285",
+        "building": "yes",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6796109,
+          -6.3084422
+        ]
+      },
+      "id": "way/685337285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685344995",
+        "amenity": "college",
+        "name": "Stikes Banten",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6775521,
+          -6.3159578
+        ]
+      },
+      "id": "way/685344995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685346152",
+        "alt_name": "SDN Rawabuntu 03",
+        "amenity": "school",
+        "isced:level": "1",
+        "name": "SD Negeri Rawabuntu 03",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6767683,
+          -6.3080865
+        ]
+      },
+      "id": "way/685346152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/715631704",
+        "amenity": "school",
+        "name": "GANESHA OPERATION DAAN MOGOT",
+        "office": "educational_institution",
+        "operator": "meitha anggun",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6307081,
+          -6.1732817
+        ]
+      },
+      "id": "way/715631704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/715645036",
+        "amenity": "school",
+        "name": "Ganesha Operation Sutopo",
+        "operator": "meitha anggun",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6320363,
+          -6.1742492
+        ]
+      },
+      "id": "way/715645036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/716013906",
+        "amenity": "school",
+        "name": "SMA Negeri 1 Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6333657,
+          -6.1701827
+        ]
+      },
+      "id": "way/716013906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/716018241",
+        "amenity": "school",
+        "name": "SMA Negeri 2 Kota Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6390305,
+          -6.1753211
+        ]
+      },
+      "id": "way/716018241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/782895627",
+        "addr:city": "Kota Tanggerang",
+        "addr:full": "Jalan Bintaro Utama 3, Pd. Karya, Kecamatan Pondok Aren, Kota Tangerang Selatan, Banten 15225",
+        "amenity": "hospital",
+        "name": "RS Mitra Keluarga Bintaro",
+        "operator:type": "private",
+        "website": "https://mitrakeluarga.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7413097,
+          -6.2708506
+        ]
+      },
+      "id": "way/782895627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/782912458",
+        "addr:city": "Banten",
+        "addr:full": "Jalan Imam Bonjol No.38, Sukajadi, Kecamatan Karawaci, Kota Tangerang, Banten 15113",
+        "addr:housenumber": "No.38",
+        "addr:postcode": "15115",
+        "addr:street": "Jalan Imam Bonjol",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "RS Sari Asih Karawaci",
+        "operator:type": "government",
+        "website": "https://www.sariasih.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6261211,
+          -6.1792106
+        ]
+      },
+      "id": "way/782912458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/783778484",
+        "addr:full": "Jalan Jend. Ahmad Yani No.9, Kota Tangerang, Banten 15111",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RSUD Kabupaten Tangerang",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6363846,
+          -6.1699597
+        ]
+      },
+      "id": "way/783778484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/797757524",
+        "amenity": "university",
+        "building": "yes",
+        "name": "Nissi Bintaro Campus",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7254152,
+          -6.2840182
+        ]
+      },
+      "id": "way/797757524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/797825696",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Bintaro Xchange Mall 2",
+        "shop": "mall",
+        "short_name": "BXc Mall 2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7291789,
+          -6.2856759
+        ]
+      },
+      "id": "way/797825696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/846679245",
+        "amenity": "school",
+        "name": "SMP Negeri 1 Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6326859,
+          -6.1712973
+        ]
+      },
+      "id": "way/846679245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/918462661",
+        "name": "Hero",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7420035,
+          -6.2731476
+        ]
+      },
+      "id": "node/918462661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984167242",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RS EMC Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6482048,
+          -6.1838815
+        ]
+      },
+      "id": "way/984167242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1016777950",
+        "amenity": "university",
+        "building": "yes",
+        "name": "Universitas Muhammadiyah Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6334901,
+          -6.171997
+        ]
+      },
+      "id": "way/1016777950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1072690008",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4112732,
+          -6.3332094
+        ]
+      },
+      "id": "way/1072690008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450384",
+        "amenity": "marketplace",
+        "name": "Pasar Induk Tanah Tinggi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.645592,
+          -6.173933
+        ]
+      },
+      "id": "way/1090450384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450391",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Pura Aditya Dharmesti",
+        "religion": "hindu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6430142,
+          -6.175186
+        ]
+      },
+      "id": "way/1090450391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450392",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Gereja Oikumene",
+        "religion": "christian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6429905,
+          -6.1750828
+        ]
+      },
+      "id": "way/1090450392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450393",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al-Haadii",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6436121,
+          -6.1751139
+        ]
+      },
+      "id": "way/1090450393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450394",
+        "amenity": "college",
+        "name": "Politeknik Ilmu Pemasyarakatan & Politeknik Imigrasi",
+        "operator": "Kementerian Hukum dan HAM",
+        "short_name": "Poltekip & Poltekim",
+        "website": "https://poltekim.ac.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6419643,
+          -6.1734469
+        ]
+      },
+      "id": "way/1090450394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450395",
+        "amenity": "marketplace",
+        "name": "Pasar Induk Beras Tangerang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6432022,
+          -6.173117
+        ]
+      },
+      "id": "way/1090450395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1090450416",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid At-Taqwa",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6383985,
+          -6.1758501
+        ]
+      },
+      "id": "way/1090450416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1104667549",
+        "amenity": "clinic",
+        "name": "Puskemas Jombang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7094616,
+          -6.2955766
+        ]
+      },
+      "id": "way/1104667549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1112999118",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warunk Upnormal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795579,
+          -6.3175681
+        ]
+      },
+      "id": "way/1112999118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298006",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6803977,
+          -6.3175929
+        ]
+      },
+      "id": "way/1113298006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298008",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "padang",
+        "name": "Minang Raya BSD",
+        "phone": "+6281290999642",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6804458,
+          -6.3177759
+        ]
+      },
+      "id": "way/1113298008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298009",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Hello Chingu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6804118,
+          -6.317661
+        ]
+      },
+      "id": "way/1113298009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298011",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Mang Ncep - Empal Gentong & Gultik",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6802666,
+          -6.317467
+        ]
+      },
+      "id": "way/1113298011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298013",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Nasi Goreng Pesek",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6800597,
+          -6.317326
+        ]
+      },
+      "id": "way/1113298013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298017",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakso Malang Sudiman",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6796861,
+          -6.3168823
+        ]
+      },
+      "id": "way/1113298017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298018",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Onde-Onde Ny. Djuni Istimewa Bayumas",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6797054,
+          -6.316908
+        ]
+      },
+      "id": "way/1113298018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113298019",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Teras Berkah - Nasi T.O Tasik & Ayam Bakar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795987,
+          -6.3167664
+        ]
+      },
+      "id": "way/1113298019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113305135",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Summer Minibar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6800566,
+          -6.3169363
+        ]
+      },
+      "id": "way/1113305135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113305136",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Hotdog Booth",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6801468,
+          -6.3170709
+        ]
+      },
+      "id": "way/1113305136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134174846",
+        "addr:city": "Serpong, Kota Tangerang Selatan, Banten",
+        "addr:housenumber": "121",
+        "addr:postcode": "15310",
+        "addr:street": "Jalan Raya Rawa Buntu",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pasta;makanan_ringan",
+        "name": "Makaroni Ngehe",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+62 811 1236 733",
+        "website": "https://ngehe.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6803226,
+          -6.3175552
+        ]
+      },
+      "id": "way/1134174846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1136425126",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid Al-Karim",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.643588,
+          -6.170814
+        ]
+      },
+      "id": "way/1136425126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1155183307",
+        "amenity": "clinic",
+        "building": "yes",
+        "description": "LKU Yayasan Masjid Jami' Bintaro Jaya—poli spesialis umum & gigi.",
+        "healthcare": "clinic",
+        "name": "Klinik Afiyah",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7515865,
+          -6.2722098
+        ]
+      },
+      "id": "way/1155183307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156360386",
+        "alt_name": "SDN Rawabuntu 01",
+        "amenity": "school",
+        "isced:level": "1",
+        "name": "SD Negeri Rawabuntu 01",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6815605,
+          -6.3166268
+        ]
+      },
+      "id": "way/1156360386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156360390",
+        "alt_name": "SDN Rawabuntu 02",
+        "amenity": "school",
+        "isced:level": "1",
+        "name": "SD Negeri Rawabuntu 02",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6781755,
+          -6.3176559
+        ]
+      },
+      "id": "way/1156360390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156360391",
+        "amenity": "school",
+        "name": "TK Negeri Pembina III",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6778563,
+          -6.3177446
+        ]
+      },
+      "id": "way/1156360391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156360392",
+        "alt_name": "SMPN 7 Tangerang Selatan",
+        "amenity": "school",
+        "grades": "7-9",
+        "isced:level": "2",
+        "name": "SMP Negeri 7 Tangerang Selatan",
+        "operator:type": "government",
+        "school:type_idn": "smp",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6789449,
+          -6.3200948
+        ]
+      },
+      "id": "way/1156360392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156758551",
+        "amenity": "school",
+        "name": "Beacon Light Community School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6812419,
+          -6.3126186
+        ]
+      },
+      "id": "way/1156758551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156758575",
+        "amenity": "school",
+        "name": "Sekolah Islam Cikal Harapan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819945,
+          -6.3143881
+        ]
+      },
+      "id": "way/1156758575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1156758576",
+        "amenity": "school",
+        "name": "Saint John's School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6832034,
+          -6.3151032
+        ]
+      },
+      "id": "way/1156758576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185521471",
+        "addr:housenumber": "7;6",
+        "addr:place": "Blok MA",
+        "building": "retail",
+        "contact:whatsapp": "+628982050212",
+        "name": "Aqshamart",
+        "shop": "convenience",
+        "website": "aqshamart.co",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6755127,
+          -6.3220215
+        ]
+      },
+      "id": "way/1185521471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185521473",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "name": "Centro - Pujasera - Coffee & Juice Bar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6753466,
+          -6.3220662
+        ]
+      },
+      "id": "way/1185521473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185521475",
+        "addr:place": "Blok MA",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "retail",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6752264,
+          -6.3221105
+        ]
+      },
+      "id": "way/1185521475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185521495",
+        "addr:housenumber": "7",
+        "addr:place": "Blok NA",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "name": "Waroeng Kongkow",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6778542,
+          -6.3217486
+        ]
+      },
+      "id": "way/1185521495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185628332",
+        "addr:city": "Serpong, Tangerang Selatan",
+        "addr:country": "ID",
+        "addr:district": "Tangerang Selatan",
+        "addr:full": "Cluster Brazilia Delatinos BSD Serpong, Serpong, Kec. Serpong, Kota Tangerang Selatan, Banten 15318",
+        "addr:place": "Cluster Brazilia Flamengo",
+        "addr:postcode": "15318",
+        "addr:province": "Banten",
+        "addr:street": "Jalan Raya De Latinos",
+        "addr:subdistrict": "Serpong",
+        "addr:suburb": "Bumi Serpong Damai City",
+        "air_conditioning": "yes",
+        "amenity": "place_of_worship",
+        "name": "Masjid Al-Aqsha",
+        "opening_hours": "24/7",
+        "operator": "Dewan Kemakmuran Masjid Al-Aqsha De Latinos BSD City",
+        "religion": "muslim",
+        "source": "Official Website",
+        "website": "https://alaqshadelatinos.org/",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6721796,
+          -6.3240143
+        ]
+      },
+      "id": "way/1185628332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1189608770",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6641948,
+          -6.1712663
+        ]
+      },
+      "id": "way/1189608770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1190772221",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Balai Warga De Latinos Cluster Brazilia Flamengo",
+        "source": "local knowledge",
+        "townhall:type": "village",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6718661,
+          -6.3246022
+        ]
+      },
+      "id": "way/1190772221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1233278855",
+        "alt_name": "SDN Sawah 03",
+        "amenity": "school",
+        "isced:level": "1",
+        "name": "SD Negeri Sawah 03",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7302941,
+          -6.2914586
+        ]
+      },
+      "id": "way/1233278855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1233278856",
+        "amenity": "clinic",
+        "name": "Puskesmas Kampung Sawah",
+        "operator": "Dinas Kesehatan Tangerang Selatan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7301856,
+          -6.2918752
+        ]
+      },
+      "id": "way/1233278856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1233391375",
+        "addr:city": "Banten",
+        "addr:postcode": "15411",
+        "addr:street": "Jalan Tegalrotan",
+        "amenity": "university",
+        "name": "Universitas Pembangunan Jaya",
+        "short_name": "UPJ",
+        "website": "https://upj.ac.id/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7255993,
+          -6.292329
+        ]
+      },
+      "id": "way/1233391375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1249077091",
+        "amenity": "school",
+        "name": "Sekolah Dahlia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7078826,
+          -6.2916145
+        ]
+      },
+      "id": "way/1249077091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1249077092",
+        "amenity": "school",
+        "name": "Sekolah Wijaya Kusuma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7078112,
+          -6.2912069
+        ]
+      },
+      "id": "way/1249077092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1249077115",
+        "alt_name": "SMPN 6 Tangerang Selatan",
+        "amenity": "school",
+        "grades": "7-9",
+        "isced:level": "2",
+        "name": "SMP Negeri 6 Tangerang Selatan",
+        "official_name": "Sekolah Menengah Pertama Negeri 6 Kota Tangerang Selatan",
+        "operator:type": "government",
+        "school:type_idn": "smp",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7066223,
+          -6.298007
+        ]
+      },
+      "id": "way/1249077115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260536721",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid Jami' Baitul Muttaqin",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7145464,
+          -6.2968683
+        ]
+      },
+      "id": "way/1260536721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1263150749",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Musala Al 'Uswah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7123321,
+          -6.296856
+        ]
+      },
+      "id": "way/1263150749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1283827485",
+        "amenity": "place_of_worship",
+        "name": "Masjid Al Mujadid",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6643621,
+          -6.177427
+        ]
+      },
+      "id": "way/1283827485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1352485251",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid An-Nur",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.488967,
+          -6.3393172
+        ]
+      },
+      "id": "way/1352485251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1376909593",
+        "amenity": "place_of_worship",
+        "name": "Vihara Boen Tek Bio",
+        "name:zh-Hant": "文德廟",
+        "religion": "taoist",
+        "start_date": "1684",
+        "wikimedia_commons": "File:Boen_Tek_Bio.jpg",
+        "wikipedia": "en:Boen Tek Bio",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6296092,
+          -6.1790844
+        ]
+      },
+      "id": "way/1376909593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1391101553",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "retail",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.434732,
+          -6.3351634
+        ]
+      },
+      "id": "way/1391101553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1422959729",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4182701,
+          -6.3390601
+        ]
+      },
+      "id": "way/1422959729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1451409336",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6614091,
+          -6.3225242
+        ]
+      },
+      "id": "way/1451409336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1451409346",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.660375,
+          -6.3221414
+        ]
+      },
+      "id": "way/1451409346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1451409882",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "indonesian",
+        "name": "Sirah Naga Sundanese Resto & Cafe",
+        "source": "Mapped by FajrAl using Citra Udara ATR 2024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6608364,
+          -6.3191379
+        ]
+      },
+      "id": "way/1451409882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1451731211",
+        "amenity": "school",
+        "grades": "7-9",
+        "name": "SMPN 13 Tangerang Selatan",
+        "official_name": "Sekolah Menengah Pertama Negeri 13 Kota Tangerang Selatan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7387846,
+          -6.2779155
+        ]
+      },
+      "id": "way/1451731211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1459551476",
+        "amenity": "restaurant",
+        "building": "residential",
+        "name": "Nasi Goreng Endang PURI DELTA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.434587,
+          -6.3363659
+        ]
+      },
+      "id": "way/1459551476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466130185",
+        "amenity": "place_of_worship",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6718321,
+          -6.173771
+        ]
+      },
+      "id": "way/1466130185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466130186",
+        "amenity": "place_of_worship",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6740241,
+          -6.1738402
+        ]
+      },
+      "id": "way/1466130186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466130187",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6740429,
+          -6.173417
+        ]
+      },
+      "id": "way/1466130187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1472140700",
+        "amenity": "school",
+        "grades": "1-6",
+        "name": "SDN Jatake",
+        "official_name": "Sekolah Dasar Negeri Jatake",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6015314,
+          -6.3348761
+        ]
+      },
+      "id": "way/1472140700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1472328499",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4377401,
+          -6.3230154
+        ]
+      },
+      "id": "way/1472328499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1472328501",
+        "amenity": "school",
+        "education": "school",
+        "name": "SMPN 1 Solear",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4404171,
+          -6.3256062
+        ]
+      },
+      "id": "way/1472328501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1472328502",
+        "amenity": "school",
+        "education": "school",
+        "name": "SDN Cikasungka 2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.440568,
+          -6.3262701
+        ]
+      },
+      "id": "way/1472328502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1472382655",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4164185,
+          -6.3373791
+        ]
+      },
+      "id": "way/1472382655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1473795470",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4267658,
+          -6.3272108
+        ]
+      },
+      "id": "way/1473795470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1473800536",
+        "amenity": "place_of_worship",
+        "building": "house",
+        "house": "vihara_dharma_mulia_-_adiyasa",
+        "religion": "taoist",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4297737,
+          -6.3275297
+        ]
+      },
+      "id": "way/1473800536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1474313359",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7111428,
+          -6.2998332
+        ]
+      },
+      "id": "way/1474313359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1474313360",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7104217,
+          -6.2994867
+        ]
+      },
+      "id": "way/1474313360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1474313364",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7107767,
+          -6.2986832
+        ]
+      },
+      "id": "way/1474313364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1474961103",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4330667,
+          -6.3258625
+        ]
+      },
+      "id": "way/1474961103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1474961106",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4347049,
+          -6.3246208
+        ]
+      },
+      "id": "way/1474961106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1475085875",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Musholah Al Hikmah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4336002,
+          -6.329922
+        ]
+      },
+      "id": "way/1475085875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1479162972",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4916854,
+          -6.3329867
+        ]
+      },
+      "id": "way/1479162972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1479162973",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4876833,
+          -6.3353719
+        ]
+      },
+      "id": "way/1479162973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1479250589",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Musolah Nur Irfan",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4861231,
+          -6.3420295
+        ]
+      },
+      "id": "way/1479250589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1487228462",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4924518,
+          -6.3429142
+        ]
+      },
+      "id": "way/1487228462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1528411742",
+        "amenity": "marketplace",
+        "name": "Pasar Modern Kota Podomoro Tenjo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4368481,
+          -6.3353591
+        ]
+      },
+      "id": "way/1528411742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1534674436",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "name": "Masjid Al-Ikhlas",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7051882,
+          -6.2984145
+        ]
+      },
+      "id": "way/1534674436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1534692872",
+        "amenity": "school",
+        "building": "school",
+        "building:levels": "3",
+        "denomination": "sunni",
+        "education": "school",
+        "grades": "1-6",
+        "name": "Gedung H. Ismail",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7082997,
+          -6.2944239
+        ]
+      },
+      "id": "way/1534692872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1534692875",
+        "amenity": "school",
+        "building": "school",
+        "building:levels": "4",
+        "denomination": "sunni",
+        "education": "school",
+        "grades": "0, 7-9",
+        "name": "Gedung Khadijah",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7080596,
+          -6.2946222
+        ]
+      },
+      "id": "way/1534692875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1534692876",
+        "amenity": "school",
+        "building": "school",
+        "denomination": "sunni",
+        "education": "school",
+        "grades": "1-6",
+        "name": "Gedung Sholeha",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7079351,
+          -6.2943896
+        ]
+      },
+      "id": "way/1534692876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1566607326",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "A&W Poris",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6830457,
+          -6.1712066
+        ]
+      },
+      "id": "way/1566607326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1566610515",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6840175,
+          -6.1739663
+        ]
+      },
+      "id": "way/1566610515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377254725",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Sederhana Padang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7114046,
+          -6.2967003
+        ]
+      },
+      "id": "node/2377254725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377254727",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7118981,
+          -6.296735
+        ]
+      },
+      "id": "node/2377254727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377254775",
+        "name": "Pasar Jombang",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7119319,
+          -6.2960189
+        ]
+      },
+      "id": "node/2377254775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377254829",
+        "amenity": "restaurant",
+        "name": "Padang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7120376,
+          -6.296599
+        ]
+      },
+      "id": "node/2377254829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3775348991",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6394746,
+          -6.3305747
+        ]
+      },
+      "id": "node/3775348991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4148507697",
+        "addr:city": "Betung, Pondok Pucung, Pondok Aren",
+        "addr:postcode": "15225",
+        "addr:street": "Jalan Bintaro Utama, Sektor 3A",
+        "name": "Bintaro Plaza",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7422896,
+          -6.2725017
+        ]
+      },
+      "id": "node/4148507697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235083227",
+        "addr:city": "Tangerang",
+        "addr:housenumber": "51",
+        "addr:postcode": "15111",
+        "addr:street": "Jl. Daan Mogot , Sukarasa, Kec. Tangerang",
+        "amenity": "school",
+        "name": "SMP Negeri 1 Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.632376,
+          -6.1710449
+        ]
+      },
+      "id": "node/4235083227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4245857399",
+        "addr:city": "West Jakarta",
+        "addr:postcode": "11460",
+        "addr:street": "Jl. Daan Mogot",
+        "amenity": "hospital",
+        "name": "Rumah Sakit TK. IV. Daan Mogot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6315275,
+          -6.1720419
+        ]
+      },
+      "id": "node/4245857399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255671811",
+        "addr:city": "Banten",
+        "addr:postcode": "15122",
+        "addr:street": "Jalan Maulana Hasanudin",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "name": "Masjid Jami Al-Barkah",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.678589,
+          -6.1741067
+        ]
+      },
+      "id": "node/4255671811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255934975",
+        "addr:city": "Banten",
+        "addr:housenumber": "Sektor 7",
+        "addr:postcode": "15225",
+        "addr:street": "Boulevard Bintaro Jaya",
+        "amenity": "restaurant",
+        "name": "Talaga Sampireun Bintaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7293331,
+          -6.2819345
+        ]
+      },
+      "id": "node/4255934975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4383772380",
+        "addr:city": "Tangerang Selatan",
+        "addr:housenumber": "Blok AC No.1",
+        "addr:postcode": "12330",
+        "addr:street": "Bintaro Utama 3",
+        "amenity": "hospital",
+        "check_date": "2024-07-22",
+        "name": "Aesthetic & Family Dentistry",
+        "opening_hours": "10:00-19:00",
+        "operator": "Dentistry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7476277,
+          -6.2717562
+        ]
+      },
+      "id": "node/4383772380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4437324209",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7446482,
+          -6.2738668
+        ]
+      },
+      "id": "node/4437324209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4956352243",
+        "addr:city": "Kota Tangerang",
+        "addr:housenumber": "3",
+        "addr:street": "Siswa",
+        "amenity": "school",
+        "name": "SMP Negeri 2 Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6362416,
+          -6.1720545
+        ]
+      },
+      "id": "node/4956352243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5225679905",
+        "addr:city": "Tangerang Selatan",
+        "addr:full": "Pasar Bintaro Jaya Sektor 2",
+        "amenity": "bank",
+        "name": "Bank Mandiri",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7527771,
+          -6.2775902
+        ]
+      },
+      "id": "node/5225679905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5360549600",
+        "amenity": "place_of_worship",
+        "name": "Masjid Baitussalam",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6728906,
+          -6.3103196
+        ]
+      },
+      "id": "node/5360549600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5954151987",
+        "amenity": "place_of_worship",
+        "name": "Church GPIB Jemaat Samaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6374799,
+          -6.1714819
+        ]
+      },
+      "id": "node/5954151987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150677287",
+        "name": "Toserba Subur",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6318132,
+          -6.1758235
+        ]
+      },
+      "id": "node/6150677287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150681410",
+        "amenity": "bank",
+        "name": "Bank Bumi Arta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6320462,
+          -6.1758283
+        ]
+      },
+      "id": "node/6150681410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150681411",
+        "amenity": "school",
+        "name": "King’s English and Education Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6320795,
+          -6.1756959
+        ]
+      },
+      "id": "node/6150681411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150681488",
+        "amenity": "college",
+        "name": "Universitas Muhammadiyah Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.633471,
+          -6.1718076
+        ]
+      },
+      "id": "node/6150681488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150682986",
+        "amenity": "school",
+        "name": "Sekolah Bonavita",
+        "name:en": "Sekolah Bonavita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6328992,
+          -6.1736266
+        ]
+      },
+      "id": "node/6150682986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154478988",
+        "amenity": "bank",
+        "name": "Shinhan Bank capem Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6329468,
+          -6.1762655
+        ]
+      },
+      "id": "node/6154478988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154490085",
+        "amenity": "bank",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6331807,
+          -6.1762703
+        ]
+      },
+      "id": "node/6154490085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154549286",
+        "amenity": "bank",
+        "brand": "Bank Central Asia",
+        "brand:wikidata": "Q806626",
+        "name": "Bank Central Asia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6350033,
+          -6.1734937
+        ]
+      },
+      "id": "node/6154549286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154549287",
+        "amenity": "bank",
+        "name": "Bank DKI Pasar Anyar Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6350074,
+          -6.1734729
+        ]
+      },
+      "id": "node/6154549287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154549288",
+        "alt_name": "SDN Tangerang 6",
+        "amenity": "school",
+        "isced:level": "1",
+        "name": "SD Negeri Tangerang 6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6346188,
+          -6.1724484
+        ]
+      },
+      "id": "node/6154549288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154549386",
+        "amenity": "school",
+        "name": "SDN Tangerang 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6353385,
+          -6.1724579
+        ]
+      },
+      "id": "node/6154549386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154550585",
+        "amenity": "bank",
+        "branch": "unit Ahmad Yani",
+        "brand": "BRI",
+        "brand:wikidata": "Q623042",
+        "name": "BRI",
+        "official_name": "Bank Rakyat Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6346699,
+          -6.1741867
+        ]
+      },
+      "id": "node/6154550585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154559185",
+        "amenity": "bank",
+        "brand": "Bank Mandiri",
+        "brand:wikidata": "Q806639",
+        "name": "Bank Mandiri",
+        "name:en": "Bank mandiri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6349311,
+          -6.1715668
+        ]
+      },
+      "id": "node/6154559185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154789586",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Klinik Bhayangkara Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6258226,
+          -6.1747232
+        ]
+      },
+      "id": "node/6154789586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809385",
+        "amenity": "bank",
+        "name": "Bank Sinarmas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6264428,
+          -6.175905
+        ]
+      },
+      "id": "node/6154809385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809387",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RS Melati"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6252084,
+          -6.1778051
+        ]
+      },
+      "id": "node/6154809387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809388",
+        "amenity": "bank",
+        "name": "Bank HSBC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6250423,
+          -6.1778631
+        ]
+      },
+      "id": "node/6154809388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809787",
+        "amenity": "place_of_worship",
+        "name": "Mesjid Sari Asih"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6264696,
+          -6.1796605
+        ]
+      },
+      "id": "node/6154809787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809788",
+        "brand": "Alfamidi",
+        "brand:wikidata": "Q12471462",
+        "name": "Alfamidi",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6269007,
+          -6.1799811
+        ]
+      },
+      "id": "node/6154809788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809790",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "SAMedika",
+        "phone": "+622155733581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6267197,
+          -6.1804203
+        ]
+      },
+      "id": "node/6154809790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809792",
+        "amenity": "bank",
+        "brand": "BNI",
+        "brand:wikidata": "Q2882611",
+        "name": "BNI",
+        "official_name": "Bank Negara Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6270664,
+          -6.1809383
+        ]
+      },
+      "id": "node/6154809792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154809793",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6267737,
+          -6.180617
+        ]
+      },
+      "id": "node/6154809793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154812087",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6256228,
+          -6.178146
+        ]
+      },
+      "id": "node/6154812087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154821185",
+        "amenity": "bank",
+        "brand": "OCBC",
+        "brand:wikidata": "Q19724214",
+        "name": "OCBC",
+        "official_name": "Bank OCBC NISP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6249166,
+          -6.177893
+        ]
+      },
+      "id": "node/6154821185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154821188",
+        "amenity": "bank",
+        "brand": "BTN",
+        "brand:en": "BTN",
+        "brand:id": "BTN",
+        "brand:wikidata": "Q12474534",
+        "name": "BTN",
+        "official_name": "Bank Tabungan Negara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6250808,
+          -6.1781893
+        ]
+      },
+      "id": "node/6154821188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154821189",
+        "amenity": "bank",
+        "name": "Bank Mayapada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6251548,
+          -6.1781845
+        ]
+      },
+      "id": "node/6154821189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154931385",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6268605,
+          -6.1822737
+        ]
+      },
+      "id": "node/6154931385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155474089",
+        "amenity": "school",
+        "name": "SD Negeri Tangerang 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6304844,
+          -6.177564
+        ]
+      },
+      "id": "node/6155474089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155480387",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6302115,
+          -6.1764066
+        ]
+      },
+      "id": "node/6155480387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553386",
+        "amenity": "bank",
+        "name": "Bank Panin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6317599,
+          -6.1839159
+        ]
+      },
+      "id": "node/6155553386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553387",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Klinik YKS",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6317124,
+          -6.1838315
+        ]
+      },
+      "id": "node/6155553387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553388",
+        "amenity": "school",
+        "name": "Perguruan Setia Bakti TK, SD, SMP, SMK, SMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6314029,
+          -6.1828121
+        ]
+      },
+      "id": "node/6155553388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553389",
+        "amenity": "bank",
+        "name": "Bank CIMB Niaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6306105,
+          -6.179802
+        ]
+      },
+      "id": "node/6155553389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553390",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6303513,
+          -6.1793127
+        ]
+      },
+      "id": "node/6155553390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553391",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6300211,
+          -6.1781473
+        ]
+      },
+      "id": "node/6155553391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553487",
+        "amenity": "bank",
+        "brand": "BTN",
+        "brand:en": "BTN",
+        "brand:id": "BTN",
+        "brand:wikidata": "Q12474534",
+        "name": "BTN",
+        "official_name": "Bank Tabungan Negara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6310411,
+          -6.1826918
+        ]
+      },
+      "id": "node/6155553487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553488",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6310121,
+          -6.1826365
+        ]
+      },
+      "id": "node/6155553488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553489",
+        "amenity": "place_of_worship",
+        "name": "Litang Khongcu Bio",
+        "religion": "confucian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6309633,
+          -6.1811795
+        ]
+      },
+      "id": "node/6155553489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553490",
+        "amenity": "bank",
+        "brand": "BNI",
+        "brand:wikidata": "Q2882611",
+        "name": "BNI",
+        "official_name": "Bank Negara Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6303926,
+          -6.1796924
+        ]
+      },
+      "id": "node/6155553490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553785",
+        "amenity": "place_of_worship",
+        "name": "Masjid Jami Al Mu’awanah",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6313857,
+          -6.1830193
+        ]
+      },
+      "id": "node/6155553785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553786",
+        "amenity": "bank",
+        "branch": "Syariah",
+        "brand": "Bank Central Asia",
+        "brand:wikidata": "Q806626",
+        "name": "Bank Central Asia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6305505,
+          -6.1784756
+        ]
+      },
+      "id": "node/6155553786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553787",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "name:en": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6302599,
+          -6.1780752
+        ]
+      },
+      "id": "node/6155553787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553788",
+        "amenity": "marketplace",
+        "name": "Kawasan Kuliner Pasar Lama",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6301235,
+          -6.1777116
+        ]
+      },
+      "id": "node/6155553788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155553885",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6303153,
+          -6.1782368
+        ]
+      },
+      "id": "node/6155553885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6263991688",
+        "amenity": "bank",
+        "brand": "BRI",
+        "brand:wikidata": "Q623042",
+        "name": "BRI",
+        "official_name": "Bank Rakyat Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6276977,
+          -6.1753417
+        ]
+      },
+      "id": "node/6263991688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6263991690",
+        "amenity": "bank",
+        "name": "Index"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6269656,
+          -6.1760915
+        ]
+      },
+      "id": "node/6263991690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6270685377",
+        "amenity": "restaurant",
+        "name": "Sate Haji Mamat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6635346,
+          -6.3200305
+        ]
+      },
+      "id": "node/6270685377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6354486688",
+        "amenity": "police",
+        "name": "PolsubSektor Taman Adiyasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4267081,
+          -6.3257238
+        ]
+      },
+      "id": "node/6354486688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6354486689",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4328708,
+          -6.3282519
+        ]
+      },
+      "id": "node/6354486689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6416059461",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "delivery": "yes",
+        "name": "Solaria",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.741831,
+          -6.2729238
+        ]
+      },
+      "id": "node/6416059461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6416059484",
+        "amenity": "cafe",
+        "delivery": "yes",
+        "name": "J.CO",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7418256,
+          -6.2727252
+        ]
+      },
+      "id": "node/6416059484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6416059502",
+        "amenity": "cafe",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7421173,
+          -6.2722793
+        ]
+      },
+      "id": "node/6416059502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6725584584",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6433278,
+          -6.1795077
+        ]
+      },
+      "id": "node/6725584584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6725587343",
+        "brand": "Hypermart",
+        "brand:wikidata": "Q19726433",
+        "brand:wikipedia": "id:Hypermart",
+        "name": "Hypermart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.642923,
+          -6.1811525
+        ]
+      },
+      "id": "node/6725587343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6728568139",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6361786,
+          -6.1715843
+        ]
+      },
+      "id": "node/6728568139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6728568142",
+        "addr:city": "Kota Tangerang",
+        "addr:housenumber": "3",
+        "addr:street": "Siswa",
+        "amenity": "college",
+        "name": "SMPN 2 Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6362199,
+          -6.1715937
+        ]
+      },
+      "id": "node/6728568142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6731879697",
+        "amenity": "restaurant",
+        "brand": "Solaria",
+        "brand:wikidata": "Q118136107",
+        "cuisine": "indonesian",
+        "name": "Solaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6434886,
+          -6.1783536
+        ]
+      },
+      "id": "node/6731879697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6731994793",
+        "amenity": "restaurant",
+        "name": "Bale Nyonya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6434772,
+          -6.178174
+        ]
+      },
+      "id": "node/6731994793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910855087",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6377165,
+          -6.1739345
+        ]
+      },
+      "id": "node/6910855087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910861786",
+        "amenity": "restaurant",
+        "name": "Warteg Soto Babat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6377842,
+          -6.1762461
+        ]
+      },
+      "id": "node/6910861786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910861787",
+        "amenity": "restaurant",
+        "name": "Sambel Glendig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6370438,
+          -6.1714019
+        ]
+      },
+      "id": "node/6910861787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6912886885",
+        "amenity": "restaurant",
+        "name": "Chicken Corner 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6338745,
+          -6.1700744
+        ]
+      },
+      "id": "node/6912886885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6912886985",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret fresh",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6334914,
+          -6.1694694
+        ]
+      },
+      "id": "node/6912886985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6912887085",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6336638,
+          -6.1690646
+        ]
+      },
+      "id": "node/6912887085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7097052353",
+        "addr:city": "Tangerang",
+        "addr:postcode": "15111",
+        "addr:street": "Jl. A. Damyati No.23, RT.006/RW.003, Kelurahan Sukarasa",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "BREATH! Cofffe NOW",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6322141,
+          -6.1778445
+        ]
+      },
+      "id": "node/7097052353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7764938590",
+        "amenity": "cafe",
+        "name": "Rummah Go'a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7270319,
+          -6.2903228
+        ]
+      },
+      "id": "node/7764938590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7780253975",
+        "amenity": "restaurant",
+        "cuisine": "minang",
+        "name": "Simpang Raya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7145687,
+          -6.2949087
+        ]
+      },
+      "id": "node/7780253975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7780253976",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7146652,
+          -6.2947514
+        ]
+      },
+      "id": "node/7780253976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7780253977",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "brand:wikipedia": "en:Alfamart",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7149254,
+          -6.2947514
+        ]
+      },
+      "id": "node/7780253977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8893810074",
+        "addr:city": "Tangerang",
+        "addr:housenumber": "No.9A",
+        "addr:postcode": "15111",
+        "addr:street": "Jalan Windu Karya",
+        "amenity": "restaurant",
+        "cuisine": "Meatball;noodles",
+        "name": "Bakso KampungQu Tangerang",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.633655,
+          -6.1696111
+        ]
+      },
+      "id": "node/8893810074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9201422041",
+        "brand": "Alfa express",
+        "brand:wikidata": "Q12471463",
+        "brand:wikipedia": "id:Alfa Express",
+        "name": "Alfa express",
+        "shop": "convenience",
+        "wikidata": "Q12471463",
+        "wikipedia": "id:Alfa Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7447402,
+          -6.2764145
+        ]
+      },
+      "id": "node/9201422041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9201439521",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.744658,
+          -6.2764754
+        ]
+      },
+      "id": "node/9201439521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9695764264",
+        "amenity": "restaurant",
+        "name": "Sabar Subur Fried Chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6312157,
+          -6.1761122
+        ]
+      },
+      "id": "node/9695764264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9696016624",
+        "amenity": "school",
+        "name": "SMA Negeri 1 Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6333228,
+          -6.1701162
+        ]
+      },
+      "id": "node/9696016624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9696281425",
+        "air_conditioning": "yes",
+        "branch": "Sudimara Stasiun Sudimara",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7137707,
+          -6.2981078
+        ]
+      },
+      "id": "node/9696281425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9696286136",
+        "amenity": "place_of_worship",
+        "name": "Masjid Jami Al Wustho Poris Jaya",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6797106,
+          -6.1690542
+        ]
+      },
+      "id": "node/9696286136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9696286137",
+        "amenity": "cafe",
+        "name": "Munim Poris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6796089,
+          -6.1705337
+        ]
+      },
+      "id": "node/9696286137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9696289695",
+        "amenity": "cafe",
+        "name": "Teguk - Sudimara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7132628,
+          -6.2976351
+        ]
+      },
+      "id": "node/9696289695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9728501432",
+        "amenity": "cafe",
+        "name": "Mata Kopi Coffee Shop - Pondok Karya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7421446,
+          -6.2737798
+        ]
+      },
+      "id": "node/9728501432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731515363",
+        "amenity": "restaurant",
+        "name": "Bunda Joeli - Pondok Ranji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.738946,
+          -6.2796703
+        ]
+      },
+      "id": "node/9731515363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10108636836",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puskesmas Jombang",
+        "operator": "Ministry of Health",
+        "operator:en": "Ministry of Health",
+        "operator:id": "Kementerian Kesehatan",
+        "operator:type": "government",
+        "operator:wikidata": "Q12490745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7094375,
+          -6.2955553
+        ]
+      },
+      "id": "node/10108636836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10108641106",
+        "amenity": "place_of_worship",
+        "name": "Masjid As-Sulaiman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7088811,
+          -6.295898
+        ]
+      },
+      "id": "node/10108641106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10185603666",
+        "amenity": "restaurant",
+        "name": "Nasi Goreng NRB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6753352,
+          -6.3221652
+        ]
+      },
+      "id": "node/10185603666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10656518843",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6816611,
+          -6.3202779
+        ]
+      },
+      "id": "node/10656518843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10656518845",
+        "amenity": "cafe",
+        "name": "Kopi Kenangan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6817867,
+          -6.3202397
+        ]
+      },
+      "id": "node/10656518845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10753808526",
+        "branch": "Rawabuntu 3",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6775076,
+          -6.3138189
+        ]
+      },
+      "id": "node/10753808526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10753808539",
+        "branch": "Stasiun Rawabuntu",
+        "brand": "Alfa Express",
+        "brand:wikidata": "Q12471463",
+        "name": "Alfa Express",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6756676,
+          -6.3147137
+        ]
+      },
+      "id": "node/10753808539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10753808540",
+        "air_conditioning": "yes",
+        "branch": "Stasiun Rawabuntu 2",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6757528,
+          -6.3146557
+        ]
+      },
+      "id": "node/10753808540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11290931869",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7445435,
+          -6.2734929
+        ]
+      },
+      "id": "node/11290931869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438822124",
+        "amenity": "restaurant",
+        "name": "Monsieur Spoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7286265,
+          -6.2854979
+        ]
+      },
+      "id": "node/11438822124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438822161",
+        "amenity": "cafe",
+        "name": "Excelso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7282644,
+          -6.2859964
+        ]
+      },
+      "id": "node/11438822161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438822162",
+        "amenity": "cafe",
+        "name": "Djournal Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7282698,
+          -6.2857325
+        ]
+      },
+      "id": "node/11438822162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438822163",
+        "amenity": "restaurant",
+        "cuisine": "donut",
+        "name": "Krispy Kreme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7282107,
+          -6.285042
+        ]
+      },
+      "id": "node/11438822163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438822164",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Sate Khas Senayan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7282537,
+          -6.284866
+        ]
+      },
+      "id": "node/11438822164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438822165",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Marzano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7292219,
+          -6.2853059
+        ]
+      },
+      "id": "node/11438822165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438825270",
+        "amenity": "cafe",
+        "name": "Fore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7282107,
+          -6.2852433
+        ]
+      },
+      "id": "node/11438825270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438825271",
+        "amenity": "cafe",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7282228,
+          -6.2854192
+        ]
+      },
+      "id": "node/11438825271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716189143",
+        "air_conditioning": "yes",
+        "branch": "Jombang Sudimara",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7147113,
+          -6.2998374
+        ]
+      },
+      "id": "node/11716189143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11811508841",
+        "amenity": "restaurant",
+        "name": "Hwamei Chinese Food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7404902,
+          -6.2766202
+        ]
+      },
+      "id": "node/11811508841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11911505421",
+        "amenity": "place_of_worship",
+        "name": "Masjid Al Muhajirin",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6626254,
+          -6.177393
+        ]
+      },
+      "id": "node/11911505421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11911505422",
+        "amenity": "restaurant",
+        "name": "Rumah Makan Sarirasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6639973,
+          -6.1781596
+        ]
+      },
+      "id": "node/11911505422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12036808909",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4347234,
+          -6.3351407
+        ]
+      },
+      "id": "node/12036808909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12322905908",
+        "amenity": "cafe",
+        "brand:wikidata": "Q4906876",
+        "brand:wikipedia": "en:Biggby Coffee",
+        "cuisine": "coffee_shop;sandwich;dessert",
+        "description": "Ruko Poris Paradise Ekslusif Blok A3, No.17",
+        "diet:halal": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Biggby Coffee",
+        "outdoor_seating": "yes",
+        "website": "https://www.biggby.co.id/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6829303,
+          -6.1711752
+        ]
+      },
+      "id": "node/12322905908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12757914427",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Mr. Husband",
+        "opening_hours": "Mo-Sa 08:00-13:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6427267,
+          -6.321315
+        ]
+      },
+      "id": "node/12757914427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12866257313",
+        "amenity": "place_of_worship",
+        "name": "Vihara MAHA KARUNIA TRI RATNA",
+        "religion": "buddhist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.628193,
+          -6.1823488
+        ]
+      },
+      "id": "node/12866257313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12866257314",
+        "amenity": "place_of_worship",
+        "name": "Kelenteng Empe Peh Cun",
+        "religion": "buddhist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6279683,
+          -6.1808011
+        ]
+      },
+      "id": "node/12866257314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12866257326",
+        "amenity": "place_of_worship",
+        "name": "AUW KIM SHU BIO",
+        "religion": "buddhist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6249747,
+          -6.179156
+        ]
+      },
+      "id": "node/12866257326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12869981814",
+        "amenity": "marketplace",
+        "instagram": "https://www.instagram.com/pasarlamaupdate/",
+        "name": "Pasar Lama Tangerang",
+        "wikipedia": "id:Pasar Lama, Tangerang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6302705,
+          -6.1786597
+        ]
+      },
+      "id": "node/12869981814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12870013088",
+        "amenity": "place_of_worship",
+        "name": "Vihara Vimalakirti Tangerang",
+        "religion": "buddhist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6286028,
+          -6.1831642
+        ]
+      },
+      "id": "node/12870013088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12946644839",
+        "amenity": "restaurant",
+        "name": "Marugame Udon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7278999,
+          -6.2854607
+        ]
+      },
+      "id": "node/12946644839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13180273102",
+        "air_conditioning": "no",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-09-29",
+        "diet:halal": "yes",
+        "indoor_seating": "yes",
+        "name": "Warkop GAUL",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.714931,
+          -6.3009597
+        ]
+      },
+      "id": "node/13180273102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13232201801",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4296074,
+          -6.3249803
+        ]
+      },
+      "id": "node/13232201801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13243524639",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-10-19",
+        "diet:halal": "yes",
+        "indoor_seating": "no",
+        "name": "Warkop",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7134932,
+          -6.2983111
+        ]
+      },
+      "id": "node/13243524639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13277417636",
+        "air_conditioning": "no",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-11-03",
+        "diet:halal": "yes",
+        "indoor_seating": "yes",
+        "name": "Warkop VJB",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7162944,
+          -6.3030202
+        ]
+      },
+      "id": "node/13277417636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13293899237",
+        "amenity": "university",
+        "education": "university",
+        "name": "Sekolah Tinggi Meteorologi Klimatologi dan Geofisika (STMKG)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.645759,
+          -6.1719399
+        ]
+      },
+      "id": "node/13293899237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13311514245",
+        "amenity": "restaurant",
+        "name": "Bebek Salero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6637174,
+          -6.3199911
+        ]
+      },
+      "id": "node/13311514245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13324753556",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "diet:halal": "yes",
+        "indoor_seating": "yes",
+        "name": "Mandiri Jaya",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7149715,
+          -6.2998988
+        ]
+      },
+      "id": "node/13324753556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13459688301",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6334516,
+          -6.1738067
+        ]
+      },
+      "id": "node/13459688301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13459688401",
+        "amenity": "school",
+        "name": "SD Bonavita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6332687,
+          -6.1734779
+        ]
+      },
+      "id": "node/13459688401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13459764601",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6335696,
+          -6.1734814
+        ]
+      },
+      "id": "node/13459764601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13649897604",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posyandu Mawar",
+        "operator": "Posyandu",
+        "operator:type": "private",
+        "operator:wikidata": "Q12506263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7280307,
+          -6.2925893
+        ]
+      },
+      "id": "node/13649897604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13691929701",
+        "amenity": "school",
+        "name": "SMP PGRI Daru",
+        "opening_hours": "Mo-Sa 06:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4909999,
+          -6.3366492
+        ]
+      },
+      "id": "node/13691929701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13691929801",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4907111,
+          -6.3362583
+        ]
+      },
+      "id": "node/13691929801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13815569143",
+        "addr:city": "Kota Tangerang Selatan",
+        "addr:district": "Kec. Pondok Aren",
+        "addr:neighbourhood": "Bintaro Jaya 3",
+        "addr:postcode": "15221",
+        "addr:province": "Banten",
+        "addr:street": "Jl Camar XIII",
+        "addr:subdistrict": "Kel. Pondok Betung",
+        "air_conditioning": "yes",
+        "amenity": "place_of_worship",
+        "name": "Masjid At-Taqwa Bintaro Jaya 3",
+        "religion": "muslim",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7437851,
+          -6.2700319
+        ]
+      },
+      "id": "node/13815569143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13855134632",
+        "addr:city": "Tangerang",
+        "addr:district": "Cipondoh",
+        "addr:housenumber": "7",
+        "addr:neighbourhood": "05",
+        "addr:postcode": "15141",
+        "addr:province": "Banten",
+        "addr:street": "Jalan KH. Agus Salim",
+        "addr:subdistrict": "Poris Plawad",
+        "amenity": "restaurant",
+        "cuisine": "asian;jawa;javanese",
+        "diet:chicken": "yes",
+        "diet:halal": "yes",
+        "diet:local": "yes",
+        "name": "Warung Nasi Zein Pemalang",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "payment:cash": "yes",
+        "payment:qris": "yes",
+        "phone": "+62 878 0833 0991",
+        "takeaway": "yes",
+        "website": "https://zeinpemalang.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6631365,
+          -6.1696389
+        ]
+      },
+      "id": "node/13855134632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14063868401",
+        "name": "Alfamart Pasar Jombang",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7114749,
+          -6.2959247
+        ]
+      },
+      "id": "node/14063868401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14063949403",
+        "addr:street": "Jalan Aria Putra Raya",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "internet_access": "wlan",
+        "name": "Mie Gacoan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7178274,
+          -6.3030664
+        ]
+      },
+      "id": "node/14063949403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14121859002",
+        "addr:street": "Jalan Jawa Jombang Raya",
+        "amenity": "cafe",
+        "name": "Warkop Bunda Ilham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7125114,
+          -6.2973288
+        ]
+      },
+      "id": "node/14121859002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14161604226",
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6370612,
+          -6.3202925
+        ]
+      },
+      "id": "node/14161604226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14166792601",
+        "amenity": "restaurant",
+        "check_date": "2026-09-09",
+        "name": "Kitchenette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7290681,
+          -6.2856733
+        ]
+      },
+      "id": "node/14166792601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14202986628",
+        "branch": "Stasiun Sudimara",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7124972,
+          -6.2967392
+        ]
+      },
+      "id": "node/14202986628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14202986636",
+        "branch": "Stasiun Sudimara",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "name": "Indomaret",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7129403,
+          -6.2969046
+        ]
+      },
+      "id": "node/14202986636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14251472001",
+        "name": "Alfamart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6328435,
+          -6.1766716
+        ]
+      },
+      "id": "node/14251472001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14251472101",
+        "name": "Indomaret Point",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6328439,
+          -6.1766019
+        ]
+      },
+      "id": "node/14251472101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253741102",
+        "name": "Lawson",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6256176,
+          -6.1742198
+        ]
+      },
+      "id": "node/14253741102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253741103",
+        "amenity": "bank",
+        "name": "Danamon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6318961,
+          -6.1708914
+        ]
+      },
+      "id": "node/14253741103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253741104",
+        "name": "FamilyMart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6317107,
+          -6.1711364
+        ]
+      },
+      "id": "node/14253741104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253741107",
+        "amenity": "post_office",
+        "name": "Pos Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6304384,
+          -6.1745074
+        ]
+      },
+      "id": "node/14253741107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253741203",
+        "amenity": "bank",
+        "name": "MEGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6310905,
+          -6.1720185
+        ]
+      },
+      "id": "node/14253741203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253742903",
+        "amenity": "bank",
+        "name": "BSI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6313791,
+          -6.1724104
+        ]
+      },
+      "id": "node/14253742903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743005",
+        "amenity": "police",
+        "name": "SATPAS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6321084,
+          -6.1700602
+        ]
+      },
+      "id": "node/14253743005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743007",
+        "amenity": "bank",
+        "name": "Permata Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6311719,
+          -6.1726794
+        ]
+      },
+      "id": "node/14253743007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743008",
+        "amenity": "bank",
+        "name": "Maybank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6312669,
+          -6.1728767
+        ]
+      },
+      "id": "node/14253743008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743010",
+        "amenity": "school",
+        "name": "SDN Tangerang 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6302234,
+          -6.1748199
+        ]
+      },
+      "id": "node/14253743010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743301",
+        "name": "Lawson",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6333783,
+          -6.169585
+        ]
+      },
+      "id": "node/14253743301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743302",
+        "amenity": "bank",
+        "name": "Mandiri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6309634,
+          -6.17225
+        ]
+      },
+      "id": "node/14253743302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743303",
+        "amenity": "cafe",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6304941,
+          -6.1729396
+        ]
+      },
+      "id": "node/14253743303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14253743304",
+        "amenity": "police",
+        "name": "Pos Lantas Robinson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6298501,
+          -6.175562
+        ]
+      },
+      "id": "node/14253743304"
+    }
+  ]
+}

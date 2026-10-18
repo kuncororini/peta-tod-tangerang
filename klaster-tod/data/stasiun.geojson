@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"nama":"Tanah Tinggi","wilayah":"Kota Tangerang","jalur":"Tangerang"},"geometry":{"type":"Point","coordinates":[106.64671,-6.17517]}},
+    {"type":"Feature","properties":{"nama":"Tangerang","wilayah":"Kota Tangerang","jalur":"Tangerang"},"geometry":{"type":"Point","coordinates":[106.632011,-6.176975]}},
+    {"type":"Feature","properties":{"nama":"Batu Ceper","wilayah":"Kota Tangerang","jalur":"Tangerang"},"geometry":{"type":"Point","coordinates":[106.665287,-6.172027]}},
+    {"type":"Feature","properties":{"nama":"Poris","wilayah":"Kota Tangerang","jalur":"Tangerang"},"geometry":{"type":"Point","coordinates":[106.680752,-6.169735]}},
+    {"type":"Feature","properties":{"nama":"Sudimara","wilayah":"Kota Tangerang Selatan","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.712647,-6.296844]}},
+    {"type":"Feature","properties":{"nama":"Pondok Ranji","wilayah":"Kota Tangerang Selatan","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.7447,-6.2772]}},
+    {"type":"Feature","properties":{"nama":"Jurangmangu","wilayah":"Kota Tangerang Selatan","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.729146,-6.288582]}},
+    {"type":"Feature","properties":{"nama":"Rawa Buntu","wilayah":"Kota Tangerang Selatan","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.676152,-6.314884]}},
+    {"type":"Feature","properties":{"nama":"Serpong","wilayah":"Kota Tangerang Selatan","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.665584,-6.320153]}},
+    {"type":"Feature","properties":{"nama":"Cisauk","wilayah":"Kabupaten Tangerang","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.641626,-6.324445]}},
+    {"type":"Feature","properties":{"nama":"Cicayur","wilayah":"Kabupaten Tangerang","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.618971,-6.329683]}},
+    {"type":"Feature","properties":{"nama":"Jatake","wilayah":"Kabupaten Tangerang","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.606613,-6.334994]}},
+    {"type":"Feature","properties":{"nama":"Daru","wilayah":"Kabupaten Tangerang","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.492563,-6.33797]}},
+    {"type":"Feature","properties":{"nama":"Tigaraksa","wilayah":"Kabupaten Tangerang","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.43406,-6.328836]}},
+    {"type":"Feature","properties":{"nama":"Cikoya","wilayah":"Kabupaten Tangerang","jalur":"Rangkasbitung"},"geometry":{"type":"Point","coordinates":[106.411655,-6.335738]}}
+  ]
+}

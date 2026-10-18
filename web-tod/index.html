@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peta Tipologi Kawasan Stasiun KRL Tangerang Raya</title>
+<meta name="description" content="Peta interaktif yang mengelompokkan 15 stasiun KRL di Tangerang Raya menjadi empat tipe kawasan untuk mendukung perencanaan TOD.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{--ink:#1f2937;--muted:#566070;--bg:#f4f7fa;--card:#fff;--line:#d9e0e8;--brand:#0b5e7e;--brand-dark:#084a65;--radius:14px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:16px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;color:var(--ink);padding:10px 14px;z-index:3000;border-radius:8px;font-weight:600}
+.skip:focus{left:8px}
+a{color:var(--brand)}
+:focus-visible{outline:3px solid #f5a623;outline-offset:2px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,#084a65 0%,#0b7a8c 100%);color:#fff;padding:52px 0 44px}
+.eyebrow{margin:0 0 10px;font-size:.9rem;letter-spacing:.04em;text-transform:uppercase;opacity:.9}
+.hero h1{margin:0 0 14px;font-size:clamp(1.7rem,4.2vw,2.7rem);line-height:1.2;max-width:22ch}
+.lead{margin:0 0 24px;font-size:clamp(1rem,2vw,1.2rem);max-width:62ch;opacity:.97}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border-radius:999px;border:2px solid #fff;color:#fff;text-decoration:none;font-weight:600;margin:0 10px 10px 0;background:transparent;cursor:pointer;font-size:1rem}
+.btn:hover{background:rgba(255,255,255,.14)}
+.btn.primary{background:#fff;color:var(--brand-dark)}
+.btn.primary:hover{background:#eaf6f9}
+
+/* Kartu info */
+.info{padding:28px 0 8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.card h2,.card h3{margin:0 0 8px;font-size:1.1rem}
+.card p{margin:0;color:var(--muted)}
+.card p + p{margin-top:10px}
+.card .ico{font-size:1.6rem;line-height:1;margin-bottom:8px}
+
+/* Aplikasi */
+.app{display:grid;grid-template-columns:1fr;gap:18px;padding-top:22px;padding-bottom:12px}
+@media (min-width:980px){.app{grid-template-columns:minmax(0,1fr) 400px;align-items:start}}
+.filters{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;margin-bottom:14px}
+.filters .lbl{font-weight:600;margin-right:4px;flex-basis:100%}
+#chips{display:flex;flex-wrap:wrap;gap:12px}
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 8px;border-radius:999px;border:2px solid var(--c);background:#fff;color:var(--ink);font-size:.95rem;cursor:pointer;font-weight:600}
+.chip .dot{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--c);color:#fff;font-size:.85rem;font-weight:700}
+.chip[aria-pressed="false"]{background:#f1f3f6;border-color:#c4cbd5;color:#6b7280}
+.chip[aria-pressed="false"] .dot{background:#9aa3af}
+.linkbtn{background:none;border:0;color:var(--brand);text-decoration:underline;cursor:pointer;font-size:.95rem;min-height:44px;padding:0 6px}
+#map{height:min(68vh,620px);min-height:380px;border-radius:var(--radius);border:1px solid var(--line);background:#e8edf2}
+.map-hint{margin:8px 2px 0;color:var(--muted);font-size:.92rem}
+.pin-wrap{background:none;border:0}
+.pin{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--c);color:#fff;font-weight:800;font-size:1rem;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);transition:transform .15s}
+.pin.sel{transform:scale(1.3);box-shadow:0 0 0 4px rgba(245,166,35,.9),0 2px 8px rgba(0,0,0,.5)}
+
+/* Panel */
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.panel h2{margin:0 0 6px;font-size:1.3rem;line-height:1.3}
+.panel h3{margin:18px 0 6px;font-size:1.02rem}
+.panel p{margin:0 0 10px}
+.muted{color:var(--muted)}
+.field{display:block;margin:14px 0 4px;font-weight:600}
+select{width:100%;min-height:46px;border-radius:10px;border:1px solid #aab3bf;padding:0 12px;font-size:1rem;background:#fff;color:var(--ink)}
+.tipe-list{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:12px}
+.tipe-item{border:1px solid var(--line);border-left:6px solid var(--c);border-radius:10px;padding:12px 14px}
+.tipe-item h3{margin:0 0 4px;display:flex;align-items:center;gap:8px;font-size:1rem}
+.badge{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--c);color:#fff;font-size:.85rem;font-weight:800;flex:none}
+.names{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.name-btn{min-height:36px;padding:0 12px;border-radius:999px;border:1px solid #aab3bf;background:#fff;cursor:pointer;font-size:.9rem;color:var(--ink)}
+.name-btn:hover{background:#eef3f7}
+.back{min-height:44px;background:none;border:0;color:var(--brand);font-weight:600;cursor:pointer;padding:0;margin-bottom:8px;font-size:1rem}
+.head{display:flex;gap:12px;align-items:center;margin-bottom:6px}
+.head .badge{width:44px;height:44px;font-size:1.3rem}
+.tag{display:inline-block;margin-top:2px;padding:2px 10px;border-radius:999px;background:var(--c);color:#fff;font-weight:700;font-size:.9rem}
+.metric{margin:14px 0}
+.metric .row{display:flex;justify-content:space-between;gap:10px;font-weight:600}
+.metric .row span:last-child{white-space:nowrap}
+.bar{height:12px;border-radius:999px;background:#e5eaf0;margin:6px 0 4px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--c);border-radius:999px}
+.metric small{color:var(--muted);display:block;line-height:1.45}
+.arah{background:#f1f7f9;border-radius:10px;padding:12px 14px;border:1px solid #d3e6ec}
+.toggles{display:grid;gap:4px;margin:14px 0}
+.toggles label{display:flex;gap:10px;min-height:44px;align-items:center;cursor:pointer}
+.toggles input{width:22px;height:22px;flex:none}
+details{margin:14px 0 0;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:#fafbfd}
+summary{cursor:pointer;font-weight:600;min-height:32px}
+table.tech{width:100%;border-collapse:collapse;font-size:.92rem;margin-top:8px}
+table.tech td{padding:6px 0;border-bottom:1px solid var(--line)}
+table.tech td:last-child{text-align:right;font-weight:600}
+.note{font-size:.88rem;color:var(--muted);margin-top:10px}
+
+@media (min-width:980px){.panel{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}}
+
+/* Grafik & bagian bawah */
+.section{padding:22px 0}
+.chart-grid{display:grid;gap:18px;grid-template-columns:1fr}
+@media (min-width:900px){.chart-grid{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:center}}
+svg.chart{width:100%;height:auto;max-width:640px;background:#fff;border:1px solid var(--line);border-radius:var(--radius)}
+svg.chart text{font-family:inherit;fill:#374151}
+svg.chart .q{fill:#6b7280;font-size:11px}
+svg.chart .ax{font-size:12px;font-weight:600}
+svg.chart .lbl{font-size:12px;font-weight:700;display:none;paint-order:stroke;stroke:#fff;stroke-width:4px}
+svg.chart g.pt{cursor:pointer}
+svg.chart g.pt.sel .lbl{display:block}
+svg.chart g.pt.sel circle{stroke:#f5a623;stroke-width:4}
+svg.chart g.pt:focus-visible circle{stroke:#f5a623;stroke-width:4}
+svg.chart g.pt.hide{display:none}
+svg.chart g.pt text.l{fill:#fff;font-size:11px;font-weight:800;text-anchor:middle;dominant-baseline:central}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0 0;display:grid;gap:12px}
+.steps li{counter-increment:s;position:relative;padding-left:46px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:700}
+.two{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.warn{border-left:6px solid #d89b00;background:#fff9e8}
+footer{background:#0f2733;color:#d6e3ea;padding:28px 0;margin-top:26px;font-size:.93rem}
+footer a{color:#9fd3e6}
+.leaflet-container{font-family:inherit}
+noscript{display:block;padding:16px;background:#fff3cd}
+</style>
+</head>
+<body>
+<a class="skip" href="#peta">Lewati ke peta</a>
+<noscript>Halaman ini membutuhkan JavaScript agar peta interaktif dapat ditampilkan.</noscript>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Penelitian untuk Technopex 2026 · Institut Teknologi Indonesia</p>
+    <h1>Seberapa siap kawasan di sekitar stasiun KRL Tangerang Raya?</h1>
+    <p class="lead">Peta ini mengelompokkan 15 stasiun KRL ke dalam empat tipe kawasan. Pengelompokannya melihat dua hal: seberapa ramai kegiatan di sekitar stasiun, dan seberapa mudah stasiun dicapai dengan berjalan kaki.</p>
+    <a class="btn primary" href="#peta">Buka peta</a>
+    <a class="btn" href="#tentang">Apa maksudnya?</a>
+  </div>
+</header>
+
+<section class="info" aria-label="Ringkasan">
+  <div class="wrap cards">
+    <div class="card"><div class="ico" aria-hidden="true">🗺️</div><h2>Apa yang ditampilkan?</h2><p>Setiap titik di peta adalah satu stasiun KRL. Warna dan hurufnya menunjukkan tipe kawasan di sekitarnya.</p></div>
+    <div class="card"><div class="ico" aria-hidden="true">👥</div><h2>Untuk siapa?</h2><p>Warga yang penasaran dengan kawasan stasiunnya, serta pemerintah daerah, perencana kota, dan peneliti yang membutuhkan gambaran awal.</p></div>
+    <div class="card"><div class="ico" aria-hidden="true">👆</div><h2>Cara memakainya</h2><p>Klik sebuah stasiun di peta, atau pilih dari daftar, untuk melihat penjelasan dan saran arah pengembangannya.</p></div>
+  </div>
+</section>
+
+<main>
+<div class="wrap app" id="peta">
+  <section aria-label="Peta stasiun">
+    <div class="filters" role="group" aria-label="Saring tipe kawasan">
+      <span class="lbl">Tampilkan:</span>
+      <span id="chips"></span>
+      <button type="button" class="linkbtn" id="semua">Tampilkan semua</button>
+    </div>
+    <div id="map"></div>
+    <p class="map-hint">Tips: klik titik stasiun untuk detail. Gunakan tombol + dan − untuk memperbesar peta. Peta dasar dan data © OpenStreetMap contributors.</p>
+  </section>
+  <aside class="panel" id="panel" aria-live="polite"></aside>
+</div>
+
+<section class="wrap section" id="grafik" aria-labelledby="jgrafik">
+  <div class="card">
+    <h2 id="jgrafik">Posisi stasiun berdasarkan keramaian dan kemudahan akses</h2>
+    <div class="chart-grid">
+      <svg class="chart" id="chart" viewBox="0 0 640 480" role="group" aria-label="Grafik posisi 15 stasiun menurut keramaian kegiatan dan kemudahan akses jalan kaki"></svg>
+      <div>
+        <p><strong>Cara membaca:</strong> makin ke kanan, makin ramai kegiatan di sekitar stasiun (banyak dan beragam fasilitas). Makin ke atas, makin mudah stasiun dijangkau dengan berjalan kaki (area jangkauan luas dan jalan rapat).</p>
+        <p>Stasiun di <strong>kanan atas</strong> sudah ramai dan mudah dijangkau. Stasiun di <strong>kanan bawah</strong> punya banyak fasilitas, tetapi aksesnya masih sempit. Klik sebuah titik untuk melihat detailnya.</p>
+        <p class="note">Posisi dihitung relatif terhadap 15 stasiun yang diteliti, jadi nilai 0 berarti "rata-rata kelompok ini", bukan standar mutlak.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" id="tentang" aria-labelledby="jtentang">
+  <div class="two">
+    <div class="card">
+      <h2 id="jtentang">Apa itu TOD?</h2>
+      <p><em>Transit Oriented Development</em> (TOD) adalah cara merancang kawasan di sekitar stasiun supaya orang mudah berjalan kaki menuju transportasi umum. Tempat tinggal, sekolah, pasar, dan layanan lain dibuat berdekatan dengan stasiun, sehingga warga tidak selalu bergantung pada kendaraan pribadi.</p>
+      <p style="margin-top:10px">Karena setiap stasiun punya kondisi berbeda, strategi yang cocok pun berbeda. Peta ini membantu melihat stasiun mana yang butuh langkah apa.</p>
+    </div>
+    <div class="card">
+      <h2>Bagaimana tipe-tipe ini dibuat?</h2>
+      <ol class="steps">
+        <li>Memilih 15 stasiun KRL di Kota Tangerang, Kabupaten Tangerang, dan Kota Tangerang Selatan.</li>
+        <li>Menghitung area yang bisa dicapai dengan berjalan kaki sejauh 800 m dari stasiun (sekitar 10 menit), mengikuti jalan yang ada di peta.</li>
+        <li>Mengukur keramaian kegiatan (jumlah dan keragaman fasilitas) dan kemudahan akses (luas jangkauan serta kerapatan persimpangan).</li>
+        <li>Mengelompokkan stasiun yang karakternya mirip dengan algoritma K-Means menjadi empat tipe.</li>
+      </ol>
+    </div>
+    <div class="card warn" style="grid-column:1/-1">
+      <h2>Hal yang perlu diperhatikan</h2>
+      <ul>
+        <li>Hasil ini bersifat <strong>awal dan eksploratif</strong>: hanya 15 stasiun yang diteliti.</li>
+        <li>Data berasal dari OpenStreetMap yang dibuat oleh sukarelawan. Stasiun dengan sedikit fasilitas bisa saja karena fasilitasnya belum tercatat di peta.</li>
+        <li>Frekuensi kereta dan kualitas trotoar belum diperhitungkan.</li>
+        <li>Area jalan kaki 800 m adalah perkiraan dari layanan perutean, bukan pengukuran di lapangan.</li>
+        <li>Nama tipe dan saran arah pengembangan adalah usulan awal untuk bahan diskusi, bukan keputusan perencanaan.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Peta Tipologi Kawasan Stasiun KRL Tangerang Raya</strong> · dibuat untuk Seminar Nasional Technopex ke-9 2026, Institut Teknologi Indonesia.</p>
+    <p>Data: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (lisensi ODbL); area jalan kaki dari <a href="https://openrouteservice.org/">OpenRouteService</a>. Peta interaktif: <a href="https://leafletjs.com/">Leaflet</a>.</p>
+    <p>Dikembangkan oleh Lintang Kuncororini, Teknik Informatika, Institut Teknologi Indonesia.</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+"use strict";
+
+/* ===== 1. Tipe kawasan ===== */
+const TIPE = [
+  {kode:"A", nama:"Aktif dan terhubung", warna:"#00796B",
+   ringkas:"Ramai kegiatan dan mudah dijangkau dengan berjalan kaki.",
+   desk:"Banyak dan beragam fasilitas di sekitar stasiun, dan jaringan jalannya rapat sehingga mudah ditempuh dengan berjalan kaki.",
+   arah:"Pertahankan dan tingkatkan kualitasnya: trotoar yang lebar dan teduh, penyeberangan yang aman, pengelolaan kepadatan, serta sambungan yang nyaman dengan angkutan lain."},
+  {kode:"B", nama:"Terhubung, fungsi terbatas", warna:"#A85E00",
+   ringkas:"Jalan mudah dilalui, tetapi fasilitas masih sedikit.",
+   desk:"Area di sekitar stasiun cukup mudah dijalani, namun fasilitas sehari-hari seperti pasar, sekolah, dan layanan kesehatan masih sedikit atau kurang beragam.",
+   arah:"Dorong tumbuhnya fungsi pendukung di sekitar stasiun, seperti usaha, layanan publik, dan fasilitas harian, agar jalan yang sudah baik benar-benar dimanfaatkan."},
+  {kode:"C", nama:"Berkembang, akses terbatas", warna:"#1565C0",
+   ringkas:"Fasilitas cukup ada, tetapi jangkauan jalan kakinya sempit.",
+   desk:"Cukup banyak fasilitas di sekitar stasiun, tetapi area yang benar-benar bisa dicapai dengan berjalan kaki relatif sempit. Rel atau jalan besar bisa jadi salah satu penghambat (dugaan, perlu diteliti lebih lanjut).",
+   arah:"Perbaiki akses: jalur pejalan kaki yang menerus, penyeberangan di sekitar rel dan jalan besar, serta angkutan pengumpan menuju stasiun."},
+  {kode:"D", nama:"Belum berkembang", warna:"#7B3FA0",
+   ringkas:"Masih sepi dan jaringan jalannya jarang.",
+   desk:"Fasilitas di sekitar stasiun sangat sedikit dan jaringan jalannya jarang. Bisa jadi kawasannya memang masih berkembang, atau datanya belum lengkap di peta.",
+   arah:"Mulai dari perencanaan awal: sediakan akses jalan dan fasilitas dasar sebelum pengembangan yang lebih padat."}
+];
+const BYNAMA = Object.fromEntries(TIPE.map(t => [t.nama, t]));
+
+/* ===== 2. Data 15 stasiun (hasil analisis) ===== */
+const DATA = [
+ {nama:"Tanah Tinggi",wilayah:"Kota Tangerang",lng:106.64671,lat:-6.17517,fas:12,nonIbadah:8,kategori:7,shannon:1.792,luas:132.5,rasio:0.659,persimpangan:319,kerapatan:240.8,node:1.35,place:0.73,tipe:"Aktif dan terhubung"},
+ {nama:"Tangerang",wilayah:"Kota Tangerang",lng:106.632011,lat:-6.176975,fas:60,nonIbadah:56,kategori:13,shannon:1.997,luas:106.9,rasio:0.532,persimpangan:202,kerapatan:189.0,node:0.40,place:1.66,tipe:"Aktif dan terhubung"},
+ {nama:"Batu Ceper",wilayah:"Kota Tangerang",lng:106.665287,lat:-6.172027,fas:3,nonIbadah:2,kategori:3,shannon:1.099,luas:110.9,rasio:0.551,persimpangan:245,kerapatan:220.9,node:0.75,place:-0.38,tipe:"Terhubung, fungsi terbatas"},
+ {nama:"Poris",wilayah:"Kota Tangerang",lng:106.680752,lat:-6.169735,fas:5,nonIbadah:3,kategori:3,shannon:1.055,luas:110.3,rasio:0.549,persimpangan:223,kerapatan:202.2,node:0.58,place:-0.21,tipe:"Terhubung, fungsi terbatas"},
+ {nama:"Sudimara",wilayah:"Kota Tangerang Selatan",lng:106.712647,lat:-6.296844,fas:28,nonIbadah:21,kategori:7,shannon:1.827,luas:99.2,rasio:0.493,persimpangan:288,kerapatan:290.3,node:1.11,place:1.16,tipe:"Aktif dan terhubung"},
+ {nama:"Pondok Ranji",wilayah:"Kota Tangerang Selatan",lng:106.7447,lat:-6.2772,fas:9,nonIbadah:5,kategori:3,shannon:0.965,luas:58.2,rasio:0.289,persimpangan:138,kerapatan:237.1,node:-0.16,place:-0.02,tipe:"Berkembang, akses terbatas"},
+ {nama:"Jurangmangu",wilayah:"Kota Tangerang Selatan",lng:106.729146,lat:-6.288582,fas:18,nonIbadah:17,kategori:7,shannon:1.692,luas:98.8,rasio:0.492,persimpangan:221,kerapatan:223.7,node:0.54,place:0.85,tipe:"Aktif dan terhubung"},
+ {nama:"Rawa Buntu",wilayah:"Kota Tangerang Selatan",lng:106.676152,lat:-6.314884,fas:22,nonIbadah:20,kategori:6,shannon:1.427,luas:65.8,rasio:0.327,persimpangan:112,kerapatan:170.2,node:-0.58,place:0.74,tipe:"Berkembang, akses terbatas"},
+ {nama:"Serpong",wilayah:"Kota Tangerang Selatan",lng:106.665584,lat:-6.320153,fas:11,nonIbadah:6,kategori:4,shannon:1.241,luas:76.1,rasio:0.379,persimpangan:147,kerapatan:193.2,node:-0.17,place:0.28,tipe:"Berkembang, akses terbatas"},
+ {nama:"Cisauk",wilayah:"Kabupaten Tangerang",lng:106.641626,lat:-6.324445,fas:5,nonIbadah:4,kategori:5,shannon:1.609,luas:83.7,rasio:0.416,persimpangan:162,kerapatan:193.5,node:-0.02,place:0.21,tipe:"Berkembang, akses terbatas"},
+ {nama:"Cicayur",wilayah:"Kabupaten Tangerang",lng:106.618971,lat:-6.329683,fas:1,nonIbadah:1,kategori:1,shannon:0,luas:78.9,rasio:0.393,persimpangan:69,kerapatan:87.5,node:-1.02,place:-1.56,tipe:"Belum berkembang"},
+ {nama:"Jatake",wilayah:"Kabupaten Tangerang",lng:106.606613,lat:-6.334994,fas:0,nonIbadah:0,kategori:0,shannon:0,luas:33.4,rasio:0.166,persimpangan:27,kerapatan:80.8,node:-1.98,place:-1.90,tipe:"Belum berkembang"},
+ {nama:"Daru",wilayah:"Kabupaten Tangerang",lng:106.492563,lat:-6.33797,fas:5,nonIbadah:2,kategori:3,shannon:0.950,luas:66.6,rasio:0.331,persimpangan:95,kerapatan:142.6,node:-0.80,place:-0.29,tipe:"Berkembang, akses terbatas"},
+ {nama:"Tigaraksa",wilayah:"Kabupaten Tangerang",lng:106.43406,lat:-6.328836,fas:10,nonIbadah:2,kategori:2,shannon:0.500,luas:115.6,rasio:0.575,persimpangan:224,kerapatan:193.8,node:0.61,place:-0.33,tipe:"Terhubung, fungsi terbatas"},
+ {nama:"Cikoya",wilayah:"Kabupaten Tangerang",lng:106.411655,lat:-6.335738,fas:6,nonIbadah:0,kategori:1,shannon:0,luas:98.4,rasio:0.489,persimpangan:89,kerapatan:90.4,node:-0.61,place:-0.93,tipe:"Belum berkembang"}
+];
+
+/* ===== 3. Status & utilitas ===== */
+const state = {sel:null, visible:new Set(TIPE.map(t => t.nama)), showArea:true, showCircle:false};
+const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = (n, d=0) => Number(n).toLocaleString("id-ID", {minimumFractionDigits:d, maximumFractionDigits:d});
+const cari = nama => DATA.find(d => d.nama === nama);
+
+function tingkat(key, val){
+  const arr = DATA.map(x => x[key]).sort((a,b) => a-b);
+  const lo = arr[Math.floor(arr.length/3)], hi = arr[Math.floor(2*arr.length/3)];
+  return val < lo ? "rendah" : (val >= hi ? "tinggi" : "sedang");
+}
+
+/* ===== 4. Peta ===== */
+const map = L.map("map", {zoomControl:true});
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+const areaLayer = L.layerGroup().addTo(map);
+const markers = {};
+
+DATA.forEach(d => {
+  const t = BYNAMA[d.tipe];
+  const icon = L.divIcon({className:"pin-wrap", html:`<span class="pin" style="--c:${t.warna}">${t.kode}</span>`, iconSize:[34,34], iconAnchor:[17,17]});
+  const m = L.marker([d.lat, d.lng], {icon, title:`Stasiun ${d.nama} (${t.nama})`, alt:`Stasiun ${d.nama}`, keyboard:true});
+  m.bindTooltip(`${d.nama}`, {direction:"top", offset:[0,-16]});
+  m.on("click", () => pilih(d.nama));
+  m.addTo(map);
+  markers[d.nama] = m;
+});
+map.fitBounds(L.latLngBounds(DATA.map(d => [d.lat, d.lng])).pad(0.12));
+
+/* ===== 5. Area jalan kaki (opsional, dari data/isochrone.geojson) ===== */
+let ISO = null;   // null = belum dimuat, false = tidak tersedia
+fetch("data/isochrone.geojson").then(r => { if(!r.ok) throw 0; return r.json(); }).then(j => {
+  ISO = {};
+  j.features.forEach(f => { const n = f.properties.nama; (ISO[n] = ISO[n] || []).push(f); });
+  if(state.sel) gambarArea(cari(state.sel));
+}).catch(() => { ISO = false; if(state.sel) renderDetail(cari(state.sel)); });
+
+function gambarArea(d){
+  areaLayer.clearLayers();
+  if(!d) return;
+  const t = BYNAMA[d.tipe];
+  if(state.showArea && ISO && ISO[d.nama]){
+    ISO[d.nama].slice().sort((a,b) => b.properties.value - a.properties.value).forEach(f => {
+      const is800 = Number(f.properties.value) === 800;
+      L.geoJSON(f, {style:{color:t.warna, weight:2, fillColor:t.warna, fillOpacity: is800 ? 0.16 : 0.30}, interactive:false}).addTo(areaLayer);
+    });
+  }
+  if(state.showCircle){
+    L.circle([d.lat, d.lng], {radius:800, color:"#374151", weight:2, dashArray:"7 7", fill:false, interactive:false}).addTo(areaLayer);
+  }
+}
+
+/* ===== 6. Saringan tipe ===== */
+function buatChips(){
+  $("#chips").innerHTML = TIPE.map(t => `<button type="button" class="chip" style="--c:${t.warna}" data-tipe="${esc(t.nama)}" aria-pressed="true"><span class="dot" aria-hidden="true">${t.kode}</span>${esc(t.nama)}</button>`).join(" ");
+  document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+    const n = b.dataset.tipe;
+    if(state.visible.has(n)) state.visible.delete(n); else state.visible.add(n);
+    terapkanSaringan();
+  }));
+}
+function terapkanSaringan(){
+  document.querySelectorAll(".chip").forEach(b => b.setAttribute("aria-pressed", state.visible.has(b.dataset.tipe) ? "true" : "false"));
+  DATA.forEach(d => {
+    const tampil = state.visible.has(d.tipe);
+    if(tampil && !map.hasLayer(markers[d.nama])) markers[d.nama].addTo(map);
+    if(!tampil && map.hasLayer(markers[d.nama])) map.removeLayer(markers[d.nama]);
+    const g = document.querySelector(`#chart g.pt[data-nama="${CSS.escape(d.nama)}"]`);
+    if(g) g.classList.toggle("hide", !tampil);
+  });
+  if(state.sel && !state.visible.has(cari(state.sel).tipe)) lepas();
+}
+$("#semua").addEventListener("click", () => { state.visible = new Set(TIPE.map(t => t.nama)); terapkanSaringan(); });
+
+/* ===== 7. Panel samping ===== */
+function opsiStasiun(sel){
+  const grup = {};
+  DATA.slice().sort((a,b) => a.nama.localeCompare(b.nama, "id")).forEach(d => (grup[d.wilayah] = grup[d.wilayah] || []).push(d));
+  return Object.keys(grup).sort().map(w => `<optgroup label="${esc(w)}">${grup[w].map(d => `<option value="${esc(d.nama)}"${d.nama===sel?" selected":""}>${esc(d.nama)}</option>`).join("")}</optgroup>`).join("");
+}
+function pasangPilihan(){
+  const s = $("#pilihStasiun");
+  if(s) s.addEventListener("change", () => { if(s.value) pilih(s.value); });
+}
+
+function renderRingkasan(){
+  $("#panel").innerHTML = `
+    <h2>Mulai dari sini</h2>
+    <p class="muted">Pilih stasiun lewat daftar ini, atau klik titiknya di peta. Di bawah ada empat tipe kawasan beserta stasiun yang termasuk di dalamnya.</p>
+    <label class="field" for="pilihStasiun">Pilih stasiun</label>
+    <select id="pilihStasiun"><option value="">— pilih stasiun —</option>${opsiStasiun("")}</select>
+    <ul class="tipe-list">
+      ${TIPE.map(t => {
+        const anggota = DATA.filter(d => d.tipe === t.nama);
+        return `<li class="tipe-item" style="--c:${t.warna}">
+          <h3><span class="badge" aria-hidden="true">${t.kode}</span>${esc(t.nama)} <span class="muted" style="font-weight:400">(${anggota.length} stasiun)</span></h3>
+          <p>${esc(t.ringkas)}</p>
+          <div class="names">${anggota.map(d => `<button type="button" class="name-btn" data-nama="${esc(d.nama)}">${esc(d.nama)}</button>`).join("")}</div>
+        </li>`;
+      }).join("")}
+    </ul>
+    <p class="note">Hasil bersifat awal dan eksploratif. Lihat bagian "Hal yang perlu diperhatikan" di bawah.</p>`;
+  pasangPilihan();
+  document.querySelectorAll(".name-btn").forEach(b => b.addEventListener("click", () => pilih(b.dataset.nama)));
+}
+
+function metrik(label, nilaiTeks, pct, keterangan, key, nilai, warna){
+  return `<div class="metric" style="--c:${warna}">
+    <div class="row"><span>${esc(label)}</span><span>${esc(nilaiTeks)} · ${tingkat(key, nilai)}</span></div>
+    <div class="bar" role="img" aria-label="${esc(label)}: ${esc(nilaiTeks)}, tingkat ${tingkat(key, nilai)} dibanding stasiun lain"><i style="width:${Math.max(2, Math.min(100, pct))}%"></i></div>
+    <small>${esc(keterangan)}</small></div>`;
+}
+
+function renderDetail(d){
+  const t = BYNAMA[d.tipe];
+  const adaArea = ISO && ISO[d.nama];
+  $("#panel").innerHTML = `
+    <button type="button" class="back" id="kembali">← Kembali ke semua tipe</button>
+    <div class="head" style="--c:${t.warna}">
+      <span class="badge" aria-hidden="true">${t.kode}</span>
+      <div><h2>Stasiun ${esc(d.nama)}</h2><span class="muted">${esc(d.wilayah)}</span></div>
+    </div>
+    <span class="tag" style="--c:${t.warna}">Tipe ${t.kode}: ${esc(t.nama)}</span>
+    <p style="margin-top:10px">${esc(t.desk)}</p>
+    <div class="arah"><strong>Arah pengembangan yang disarankan</strong><br>${esc(t.arah)}</div>
+    <h3>Seperti apa kawasan di sekitarnya?</h3>
+    <p class="muted" style="font-size:.92rem">Dihitung dalam area 800 m jalan kaki dari stasiun, dibandingkan dengan 14 stasiun lain.</p>
+    ${metrik("Fasilitas yang terjangkau", `${fmt(d.fas)} tempat`, d.fas/60*100, "Sekolah, pasar, klinik, tempat ibadah, minimarket, bank, dan sejenisnya.", "fas", d.fas, t.warna)}
+    ${metrik("Keragaman fasilitas", fmt(d.shannon,2), d.shannon/2*100, "Makin tinggi, makin beragam jenis fasilitasnya.", "shannon", d.shannon, t.warna)}
+    ${metrik("Luas area yang bisa dijalani", `${fmt(d.rasio*100)}%`, d.rasio*100, "Dibanding lingkaran 800 m. Makin kecil, makin banyak hambatan menuju sekitar stasiun.", "rasio", d.rasio, t.warna)}
+    ${metrik("Kerapatan persimpangan", `${fmt(d.kerapatan)} /km²`, d.kerapatan/300*100, "Makin rapat, makin banyak pilihan rute berjalan kaki.", "kerapatan", d.kerapatan, t.warna)}
+    <div class="toggles">
+      <label><input type="checkbox" id="tArea" ${state.showArea?"checked":""} ${ISO===false?"disabled":""}> Tampilkan area yang bisa dijalani (±10 menit)</label>
+      <label><input type="checkbox" id="tLingkar" ${state.showCircle?"checked":""}> Bandingkan dengan jarak lurus 800 m</label>
+    </div>
+    ${ISO===false ? `<p class="note">Data area jalan kaki belum dimuat pada versi ini.</p>` : `<p class="note">Area berwarna adalah wilayah yang benar-benar bisa dicapai lewat jalan. Garis putus-putus adalah lingkaran 800 m jarak lurus. Selisihnya menunjukkan hambatan seperti rel, sungai, atau jalan buntu.</p>`}
+    <details>
+      <summary>Angka teknis</summary>
+      <table class="tech">
+        <tr><td>Fasilitas dalam area jalan kaki 800 m</td><td>${fmt(d.fas)}</td></tr>
+        <tr><td>Fasilitas selain tempat ibadah</td><td>${fmt(d.nonIbadah)}</td></tr>
+        <tr><td>Jumlah jenis fasilitas</td><td>${fmt(d.kategori)}</td></tr>
+        <tr><td>Indeks keragaman Shannon</td><td>${fmt(d.shannon,2)}</td></tr>
+        <tr><td>Luas area jalan kaki (ha)</td><td>${fmt(d.luas,1)}</td></tr>
+        <tr><td>Rasio terhadap lingkaran 800 m</td><td>${fmt(d.rasio,2)}</td></tr>
+        <tr><td>Kerapatan persimpangan (per km²)</td><td>${fmt(d.kerapatan,1)}</td></tr>
+        <tr><td>Indeks place (relatif)</td><td>${fmt(d.place,2)}</td></tr>
+        <tr><td>Indeks node (relatif)</td><td>${fmt(d.node,2)}</td></tr>
+      </table>
+    </details>
+    <label class="field" for="pilihStasiun">Lihat stasiun lain</label>
+    <select id="pilihStasiun"><option value="">— pilih stasiun —</option>${opsiStasiun(d.nama)}</select>`;
+  $("#kembali").addEventListener("click", lepas);
+  pasangPilihan();
+  const a = $("#tArea"), l = $("#tLingkar");
+  if(a) a.addEventListener("change", () => { state.showArea = a.checked; gambarArea(d); });
+  if(l) l.addEventListener("change", () => { state.showCircle = l.checked; gambarArea(d); });
+}
+
+/* ===== 8. Pilih / lepas stasiun ===== */
+function perbaruiPin(){
+  DATA.forEach(d => {
+    const el = markers[d.nama].getElement();
+    if(el){ const p = el.querySelector(".pin"); if(p) p.classList.toggle("sel", d.nama === state.sel); }
+  });
+  document.querySelectorAll("#chart g.pt").forEach(g => g.classList.toggle("sel", g.dataset.nama === state.sel));
+}
+function pilih(nama){
+  const d = cari(nama);
+  if(!d) return;
+  if(!state.visible.has(d.tipe)){ state.visible.add(d.tipe); terapkanSaringan(); }
+  state.sel = nama;
+  renderDetail(d);
+  gambarArea(d);
+  perbaruiPin();
+  const batas = areaLayer.getLayers().length ? L.featureGroup(areaLayer.getLayers()).getBounds().extend([d.lat, d.lng]) : L.latLngBounds([[d.lat, d.lng]]);
+  map.fitBounds(batas.pad(0.35), {maxZoom:15, animate:!reduce});
+  const u = new URL(location.href); u.searchParams.set("stasiun", nama); history.replaceState(null, "", u);
+  if(window.matchMedia("(max-width:979px)").matches) $("#panel").scrollIntoView({behavior: reduce ? "auto" : "smooth", block:"start"});
+}
+function lepas(){
+  state.sel = null;
+  areaLayer.clearLayers();
+  renderRingkasan();
+  perbaruiPin();
+  map.fitBounds(L.latLngBounds(DATA.filter(d => state.visible.has(d.tipe)).map(d => [d.lat, d.lng])).pad(0.12), {animate:!reduce});
+  const u = new URL(location.href); u.searchParams.delete("stasiun"); history.replaceState(null, "", u);
+}
+
+/* ===== 9. Grafik node-place (SVG) ===== */
+function buatGrafik(){
+  const W = 640, H = 480, m = {l:56, r:20, t:20, b:52};
+  const xmin = -2.3, xmax = 2.0, ymin = -2.4, ymax = 1.7;
+  const X = v => m.l + (v - xmin) / (xmax - xmin) * (W - m.l - m.r);
+  const Y = v => H - m.b - (v - ymin) / (ymax - ymin) * (H - m.t - m.b);
+  let s = `<rect x="${m.l}" y="${m.t}" width="${W-m.l-m.r}" height="${H-m.t-m.b}" fill="#fbfcfe" stroke="#d9e0e8"/>`;
+  s += `<line x1="${X(0)}" y1="${m.t}" x2="${X(0)}" y2="${H-m.b}" stroke="#9aa3af" stroke-dasharray="4 4"/>`;
+  s += `<line x1="${m.l}" y1="${Y(0)}" x2="${W-m.r}" y2="${Y(0)}" stroke="#9aa3af" stroke-dasharray="4 4"/>`;
+  s += `<text class="q" x="${W-m.r-6}" y="${m.t+16}" text-anchor="end">Ramai dan mudah dijangkau</text>`;
+  s += `<text class="q" x="${m.l+6}" y="${m.t+16}">Mudah dijangkau, fasilitas sedikit</text>`;
+  s += `<text class="q" x="${W-m.r-6}" y="${H-m.b-8}" text-anchor="end">Fasilitas ada, akses sempit</text>`;
+  s += `<text class="q" x="${m.l+6}" y="${H-m.b-8}">Sepi dan akses sempit</text>`;
+  s += `<text class="ax" x="${(m.l+W-m.r)/2}" y="${H-12}" text-anchor="middle">Keramaian kegiatan di sekitar stasiun →</text>`;
+  s += `<text class="ax" transform="translate(16 ${(m.t+H-m.b)/2}) rotate(-90)" text-anchor="middle">Kemudahan dijangkau jalan kaki →</text>`;
+  DATA.forEach(d => {
+    const t = BYNAMA[d.tipe];
+    const cx = X(d.place), cy = Y(d.node);
+    const kiri = cx > W - 140;
+    s += `<g class="pt" data-nama="${esc(d.nama)}" tabindex="0" role="button" aria-label="Stasiun ${esc(d.nama)}, tipe ${esc(t.nama)}">
+      <title>${esc(d.nama)} (${esc(t.nama)})</title>
+      <circle cx="${cx}" cy="${cy}" r="11" fill="${t.warna}" stroke="#fff" stroke-width="2.5"/>
+      <text class="l" x="${cx}" y="${cy}">${t.kode}</text>
+      <text class="lbl" x="${cx + (kiri ? -20 : 20)}" y="${cy - 14}" text-anchor="${kiri ? "end" : "start"}">${esc(d.nama)}</text>
+    </g>`;
+  });
+  const svg = $("#chart");
+  svg.innerHTML = s;
+  svg.querySelectorAll("g.pt").forEach(g => {
+    g.addEventListener("click", () => pilih(g.dataset.nama));
+    g.addEventListener("keydown", e => { if(e.key === "Enter" || e.key === " "){ e.preventDefault(); pilih(g.dataset.nama); } });
+  });
+}
+
+/* ===== 10. Mulai ===== */
+buatChips();
+buatGrafik();
+renderRingkasan();
+perbaruiPin();
+const awal = new URL(location.href).searchParams.get("stasiun");
+if(awal && cari(awal)) pilih(awal);
+</script>
+</body>
+</html>
