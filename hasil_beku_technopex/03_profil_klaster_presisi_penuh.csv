@@ -1,0 +1,5 @@
+﻿tipe,tipologi,jumlah_stasiun,indeks_node,indeks_place,fasilitas_800,shannon,rasio_isochrone,kerapatan_persimpangan,anggota
+A,Aktif dan terhubung,4,0.8471070548689266,1.0989888325352832,29.5,1.827,0.544,235.95,"Tanah Tinggi, Tangerang, Sudimara, Jurangmangu"
+B,"Terhubung, fungsi terbatas",3,0.6413498903701115,-0.30599086504670353,6.0,0.8846666666666666,0.5583333333333333,205.03333333333333,"Batu Ceper, Poris, Tigaraksa"
+C,"Berkembang, akses terbatas",5,-0.3409029609331071,0.18222844714621805,10.4,1.2384,0.3484,188.0,"Pondok Ranji, Rawa Buntu, Serpong, Cisauk, Daru"
+D,Belum berkembang,3,-1.202654361973506,-1.4630416569107025,2.3333333333333335,0.0,0.34933333333333333,86.23333333333333,"Cicayur, Jatake, Cikoya"

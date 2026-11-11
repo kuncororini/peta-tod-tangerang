@@ -1,0 +1,18 @@
+﻿kolom,arti
+nama,Nama stasiun
+wilayah,(kolom tambahan dari pipeline)
+fasilitas_800,Jumlah fasilitas di dalam area jalan kaki 800 m
+fasilitas_non_ibadah,(kolom tambahan dari pipeline)
+kategori_beda,(kolom tambahan dari pipeline)
+shannon,Indeks keragaman Shannon (ln) fasilitas di area jalan kaki
+luas_iso_ha,(kolom tambahan dari pipeline)
+rasio_isochrone,Luas area jalan kaki / luas lingkaran r=800 m
+klaster,Label klaster K-Means k=4
+persimpangan_800,(kolom tambahan dari pipeline)
+kerapatan_persimpangan,Persimpangan per km2 area jalan kaki
+halte_800,(kolom tambahan dari pipeline)
+klaster_3fitur,(kolom tambahan dari pipeline)
+indeks_node,"Indeks node = rata-rata z(rasio), z(kerapatan)"
+indeks_place,"Indeks place = rata-rata z(ln(1+fasilitas)), z(Shannon)"
+tipologi,Nama tipologi klaster
+tipe,Huruf tipe di paper (A/B/C/D)

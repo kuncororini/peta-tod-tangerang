@@ -1,0 +1,4 @@
+﻿uji,nilai
+"Stabilitas K-Means, 20 seed (ARI rata-rata)",1.0
+K-Means vs Hierarchical Ward (ARI),0.8083
+K-Means langsung pada 4 fitur (ARI),1.0

@@ -1,0 +1,16 @@
+﻿nama,wilayah,fasilitas_800,fasilitas_non_ibadah,kategori_beda,shannon,luas_iso_ha,rasio_isochrone,klaster,persimpangan_800,kerapatan_persimpangan,halte_800,klaster_3fitur,indeks_node,indeks_place,tipologi,tipe
+Tanah Tinggi,Kota Tangerang,12,8,7,1.792,132.5,0.659,3,319,240.8,10,3,1.3470718020990953,0.7320253286055723,Aktif dan terhubung,A
+Tangerang,Kota Tangerang,60,56,13,1.997,106.9,0.532,3,202,189.0,2,3,0.3999546930827794,1.6588241443958438,Aktif dan terhubung,A
+Batu Ceper,Kota Tangerang,3,2,3,1.099,110.9,0.551,4,245,220.9,4,2,0.7470363336966759,-0.3799721543951879,"Terhubung, fungsi terbatas",B
+Poris,Kota Tangerang,5,3,3,1.055,110.3,0.549,4,221,200.4,0,2,0.5647164383675163,-0.21073678806651372,"Terhubung, fungsi terbatas",B
+Sudimara,Kota Tangerang Selatan,28,21,7,1.827,99.2,0.493,3,288,290.3,0,3,1.1058950438959674,1.1591138306891604,Aktif dan terhubung,A
+Pondok Ranji,Kota Tangerang Selatan,9,5,3,0.965,58.2,0.289,1,140,240.5,0,1,-0.13135464526148488,-0.02363417094955146,"Berkembang, akses terbatas",C
+Jurangmangu,Kota Tangerang Selatan,18,17,7,1.692,98.8,0.492,3,221,223.7,0,3,0.5355066803978641,0.8459920264505569,Aktif dan terhubung,A
+Rawa Buntu,Kota Tangerang Selatan,22,20,6,1.427,65.8,0.327,1,112,170.2,2,1,-0.577644435254198,0.7412364462277723,"Berkembang, akses terbatas",C
+Serpong,Kota Tangerang Selatan,11,6,4,1.241,76.1,0.379,1,147,193.2,1,1,-0.17462071614763658,0.27587591868166633,"Berkembang, akses terbatas",C
+Cisauk,Kabupaten Tangerang,5,4,5,1.609,83.7,0.416,1,162,193.5,1,1,-0.024481857174221813,0.2077091814634278,"Berkembang, akses terbatas",C
+Cicayur,Kabupaten Tangerang,1,1,1,0.0,78.9,0.393,2,69,87.5,0,4,-1.0177021449520205,-1.5561898614697873,Belum berkembang,D
+Jatake,Kabupaten Tangerang,0,0,0,0.0,33.4,0.166,2,27,80.8,0,4,-1.980151593035837,-1.9023134881952795,Belum berkembang,D
+Daru,Kabupaten Tangerang,5,2,3,0.95,66.6,0.331,1,95,142.6,1,1,-0.7964131508279942,-0.2900451396922246,"Berkembang, akses terbatas",C
+Tigaraksa,Kabupaten Tangerang,10,2,2,0.5,115.6,0.575,4,224,193.8,1,2,0.6122968990461423,-0.32726365267840907,"Terhubung, fungsi terbatas",B
+Cikoya,Kabupaten Tangerang,6,0,1,0.0,98.4,0.489,2,89,90.4,0,2,-0.61010934793266,-0.9306216210670408,Belum berkembang,D
